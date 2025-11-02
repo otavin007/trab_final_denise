@@ -3,7 +3,7 @@ import arff
 import os
 
 # Caminho do arquivo CSV de entrada
-csv_file = "non-verbal tourist data.csv"
+csv_file = "non_verbal_tourist_data.csv"
 # Caminho do arquivo ARFF de saída
 arff_file = os.path.splitext(csv_file)[0] + ".arff"
 
