@@ -1,0 +1,2416 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     non_verbal_tourist_data-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-N-R3-weka.filters.unsupervised.attribute.StringToNominal-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-R1
+Instances:    73
+Attributes:   23
+              sex
+              age
+              country
+              returning
+              GImg1
+              GImg2
+              GImg3
+              PImg1
+              PImg2
+              PImg3
+              PImg4
+              PImg5
+              Tense - relaxed
+              Authoritative -anarchic
+              Hostile - friendly
+              TAudio1
+              TAudio2
+              TAudio3
+              QAudio1
+              QAudio2
+              QAudio3
+              Proxemics
+              Type of Client
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.552475683603489
+    Node 6    0.9253602314935312
+    Node 7    -0.4274585777017958
+    Node 8    -0.8023914120075324
+    Node 9    0.7327304605357201
+    Node 10    -1.2105454997471585
+    Node 11    0.8423880256619609
+    Node 12    -0.4649657492753248
+    Node 13    -0.6082650407436294
+    Node 14    1.254890960326025
+    Node 15    1.0370388961583887
+    Node 16    -0.7270581447446244
+    Node 17    -1.5813210632869406
+    Node 18    -0.5444558567325823
+    Node 19    0.5180809689927784
+    Node 20    -1.362550552126784
+    Node 21    0.043340114029846555
+    Node 22    0.7875271796762716
+    Node 23    -0.6613927304015879
+    Node 24    1.2007268421766304
+    Node 25    -1.2833833476018652
+    Node 26    -0.7120211640719275
+    Node 27    -0.20936639245251523
+    Node 28    0.09698637414456959
+    Node 29    0.3678004157299329
+    Node 30    1.210210025698657
+    Node 31    -0.7602042053145822
+    Node 32    -1.4358883882648217
+    Node 33    -0.19355709633410506
+    Node 34    -0.5910586380709705
+    Node 35    -1.7840087707064047
+    Node 36    -0.5886252288214204
+    Node 37    -1.0615010103583986
+    Node 38    -0.7582136184824603
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.09541138848451815
+    Node 6    0.7237125783372164
+    Node 7    -0.07232808712608992
+    Node 8    -0.93940758139146
+    Node 9    -1.4506571709034883
+    Node 10    -0.008501492931283154
+    Node 11    -1.8129900828473404
+    Node 12    -0.0769722903209091
+    Node 13    -0.5602215129819675
+    Node 14    -1.7101873341237601
+    Node 15    -0.9650450763465356
+    Node 16    -0.8435925398319977
+    Node 17    -0.4822272853135241
+    Node 18    -0.9800293789491423
+    Node 19    -0.3476373966716597
+    Node 20    -0.8813469796871856
+    Node 21    -0.8712384151257972
+    Node 22    0.5090514714128126
+    Node 23    0.6533182100478759
+    Node 24    -0.3825056430094929
+    Node 25    0.7461251219784797
+    Node 26    1.9674590931459393
+    Node 27    -0.5981909615582222
+    Node 28    0.8320608579762666
+    Node 29    0.9612305229312434
+    Node 30    -1.1840635098880985
+    Node 31    -0.15263289911234051
+    Node 32    0.9266621037064064
+    Node 33    -1.223572113737387
+    Node 34    -0.3006001649872124
+    Node 35    -0.2673200903248249
+    Node 36    -0.30890672056991303
+    Node 37    -0.9390955578654853
+    Node 38    -0.6154924407958482
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.4406861550540989
+    Node 6    -0.9864736612999317
+    Node 7    -0.5712970213351137
+    Node 8    -0.6947068825673146
+    Node 9    -1.0560650188214786
+    Node 10    0.40591120653166657
+    Node 11    0.6005678444754863
+    Node 12    -0.4859097648320999
+    Node 13    -0.546381512430521
+    Node 14    -0.9637171209069173
+    Node 15    -1.3242015368360087
+    Node 16    -0.7287708914401544
+    Node 17    -0.877610731204857
+    Node 18    0.7095333393617602
+    Node 19    -0.3418536217133627
+    Node 20    1.0410109844016509
+    Node 21    -1.08733969112219
+    Node 22    -1.4772009366479608
+    Node 23    -1.145043040485783
+    Node 24    -0.829793902483121
+    Node 25    -1.2900266121800708
+    Node 26    -1.1056177636030957
+    Node 27    0.014745248252835847
+    Node 28    0.39963009185592535
+    Node 29    -0.5627369086552723
+    Node 30    0.6955999251019275
+    Node 31    0.7036240472185242
+    Node 32    1.3004427001720653
+    Node 33    -0.855169433407599
+    Node 34    -0.12756412395272462
+    Node 35    0.6480173569227398
+    Node 36    -0.2694705401743531
+    Node 37    0.9345855723507153
+    Node 38    -0.5635754476824228
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.49199089953223507
+    Node 6    -1.5726023404394855
+    Node 7    -0.5551384716589793
+    Node 8    -0.19628272655858384
+    Node 9    -0.3230950905859291
+    Node 10    0.37995945089252514
+    Node 11    0.07272489956128808
+    Node 12    -0.8415836262189919
+    Node 13    -1.1558272847623388
+    Node 14    -1.0468760489737319
+    Node 15    0.8628784548533588
+    Node 16    -1.0366169996702561
+    Node 17    1.2168192359332588
+    Node 18    -0.11670308357477129
+    Node 19    -0.7550753967659241
+    Node 20    0.75847432720047
+    Node 21    1.8796801655414554
+    Node 22    -1.2629420610056648
+    Node 23    0.33170803887281186
+    Node 24    -0.6201165378026365
+    Node 25    0.5106336777096002
+    Node 26    0.38501985606235484
+    Node 27    -0.8489333771549403
+    Node 28    0.6679867774018917
+    Node 29    -2.3181791607376843
+    Node 30    -1.325259939522798
+    Node 31    -0.49943668197354935
+    Node 32    -1.434253974375991
+    Node 33    1.4874926743876866
+    Node 34    -0.3926004863092423
+    Node 35    0.5778084428498172
+    Node 36    -0.3091200588119601
+    Node 37    -0.780177493617106
+    Node 38    -1.2845989110959393
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.18231209593519
+    Node 6    -0.91465650985367
+    Node 7    1.082938016853474
+    Node 8    0.6400345324339864
+    Node 9    -0.3839496050097151
+    Node 10    0.34626385929767833
+    Node 11    -0.7336762446233999
+    Node 12    1.202739563189111
+    Node 13    1.4634540229364572
+    Node 14    -0.3404354802402187
+    Node 15    -1.0493735973487053
+    Node 16    1.0329173952768984
+    Node 17    -1.0356035464930051
+    Node 18    -0.34277188995128505
+    Node 19    -0.6952850856606367
+    Node 20    -0.49407266309151604
+    Node 21    -1.2478238621599884
+    Node 22    -1.96326539277274
+    Node 23    -0.6483102413936919
+    Node 24    -0.9792329357730103
+    Node 25    0.30338572077639697
+    Node 26    -1.0954121997367658
+    Node 27    1.7450518158957007
+    Node 28    -2.4341632587169753
+    Node 29    -0.21318397778142104
+    Node 30    0.06055542763840143
+    Node 31    0.9508215550038251
+    Node 32    -1.7840598793351201
+    Node 33    0.18543360737703274
+    Node 34    1.5132250688259805
+    Node 35    0.5910705175124634
+    Node 36    0.8472149641334467
+    Node 37    -0.42597279670073673
+    Node 38    0.7982946208841452
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.41813173938036835
+    Node 6    -0.2735958842133046
+    Node 7    -0.6310284098409166
+    Node 8    0.3637734390405672
+    Node 9    -0.039859007993248215
+    Node 10    -1.3416499552967696
+    Node 11    -0.7954329750083525
+    Node 12    -0.5340423154853821
+    Node 13    0.11682783155975285
+    Node 14    0.5329313831832161
+    Node 15    -0.8831078616184719
+    Node 16    0.9253463285181469
+    Node 17    0.6917579693027349
+    Node 18    0.07687095179646466
+    Node 19    -0.5147417402749558
+    Node 20    -0.12162287056308682
+    Node 21    -0.8041005277648069
+    Node 22    0.9763136477296408
+    Node 23    -0.11271859730679935
+    Node 24    -0.36090315782636434
+    Node 25    -0.7582904476173453
+    Node 26    -0.9446226215861181
+    Node 27    -1.231234125223428
+    Node 28    -1.7359461195894421
+    Node 29    0.046610779849751593
+    Node 30    -0.8860824218420468
+    Node 31    -1.2286377182269153
+    Node 32    1.2494852186892411
+    Node 33    -1.0431150032526586
+    Node 34    -1.1282675724288878
+    Node 35    -1.0648162724401464
+    Node 36    -0.6293998320970472
+    Node 37    1.0318863201237063
+    Node 38    1.2756348763162992
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    0.019299409585288207
+    Attrib sex    0.4666683734034506
+    Attrib age    -0.13688018347966519
+    Attrib country=germany    -0.26526533529346885
+    Attrib country=uruguay    0.23181723368667662
+    Attrib country=spain    0.17137870061444077
+    Attrib country=england    -0.34202677967874623
+    Attrib country=russia    -0.01647465753839201
+    Attrib country=polish    -0.023075868160577
+    Attrib country=canada    0.22821152527488422
+    Attrib country=chile    0.01966261006522489
+    Attrib country=scotland    -0.08417804045485817
+    Attrib country=italy    -0.02591604819407973
+    Attrib country=argentina    -0.0034149414957362857
+    Attrib country=colombia    0.0012459233969132017
+    Attrib country=cuba    -0.07462856894108842
+    Attrib country=mexico    0.06392108789617257
+    Attrib country=hungary    -0.14140700241251225
+    Attrib country=brasil    0.28651893172672016
+    Attrib returning=1    -0.45971663018801984
+    Attrib GImg1=0    -0.3976284011571573
+    Attrib GImg1=2    -0.02674435430251946
+    Attrib GImg1=1    0.4420554234588686
+    Attrib GImg2=0    0.1650907579036017
+    Attrib GImg2=1    0.1758536732899884
+    Attrib GImg2=2    -0.3518641763923276
+    Attrib GImg3=0    0.6458047412923208
+    Attrib GImg3=1    -0.15068993883320755
+    Attrib GImg3=2    -0.08520364484411969
+    Attrib GImg3=    -0.34339343506094366
+    Attrib PImg1=1    0.08243572711989514
+    Attrib PImg2    -0.042439792469211514
+    Attrib PImg3=0    0.014087133549252236
+    Attrib PImg3=1    0.30402288517240195
+    Attrib PImg3=2    -0.2574513235687177
+    Attrib PImg4=0    0.24134311675143347
+    Attrib PImg4=1    -0.5135760360310396
+    Attrib PImg4=2    0.2313622952547995
+    Attrib PImg5=1    0.11493195071037657
+    Attrib Tense - relaxed    0.14072628631962394
+    Attrib Authoritative -anarchic    0.5857769283907391
+    Attrib Hostile - friendly    -0.5713077604817496
+    Attrib TAudio1=C    0.20461207452498728
+    Attrib TAudio1=A    -0.1956352042739464
+    Attrib TAudio1=B    -0.25680947040849056
+    Attrib TAudio1=D    0.16336295339950097
+    Attrib TAudio2=0    -0.32036866563797506
+    Attrib TAudio3=0    0.013260728785316473
+    Attrib TAudio3=1    -0.1721239458555349
+    Attrib TAudio3=2    0.14271402991176288
+    Attrib QAudio1=1    0.14241199476330835
+    Attrib QAudio1=2    0.04708453854723081
+    Attrib QAudio1=0    -0.21676756153919488
+    Attrib QAudio2=0    -0.2827848000365346
+    Attrib QAudio2=1    -0.017542786655968798
+    Attrib QAudio2=2    0.2634409736270703
+    Attrib QAudio3=0    0.03805442548939093
+    Attrib QAudio3=1    -0.06946487248284583
+    Attrib QAudio3=2    -0.006043158512717604
+    Attrib Proxemics=0    0.1165873705090775
+    Attrib Proxemics=1    -0.09093334654306694
+    Attrib Proxemics=2    -0.08388856761895658
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.11997313514438254
+    Attrib sex    -0.18667407532329847
+    Attrib age    0.10661886791777975
+    Attrib country=germany    0.05048326766024396
+    Attrib country=uruguay    0.12796323398276493
+    Attrib country=spain    0.07771268577550319
+    Attrib country=england    -0.058008615374084235
+    Attrib country=russia    -0.09233923575716274
+    Attrib country=polish    0.15215841569087413
+    Attrib country=canada    0.20647536017814547
+    Attrib country=chile    0.1390534193960243
+    Attrib country=scotland    0.41467728422393896
+    Attrib country=italy    -0.19852442848476112
+    Attrib country=argentina    0.02487883323190113
+    Attrib country=colombia    0.1674006277606719
+    Attrib country=cuba    0.06449919498700454
+    Attrib country=mexico    0.06920046145912714
+    Attrib country=hungary    0.14361474132704452
+    Attrib country=brasil    -0.02779518013048187
+    Attrib returning=1    -0.24459181323010265
+    Attrib GImg1=0    -0.09049168746729874
+    Attrib GImg1=2    0.533868684544904
+    Attrib GImg1=1    -0.38200114311845107
+    Attrib GImg2=0    -0.07478343709587455
+    Attrib GImg2=1    -0.034166801679590277
+    Attrib GImg2=2    0.11242550169461522
+    Attrib GImg3=0    -0.0251724211478804
+    Attrib GImg3=1    -0.3498144922511872
+    Attrib GImg3=2    0.4133157392126655
+    Attrib GImg3=    0.03542992107071125
+    Attrib PImg1=1    0.06390263929239572
+    Attrib PImg2    -0.03727851671725194
+    Attrib PImg3=0    -0.24008734275762533
+    Attrib PImg3=1    -0.018977146995129302
+    Attrib PImg3=2    0.2837734666244541
+    Attrib PImg4=0    -0.1049595501906203
+    Attrib PImg4=1    -0.23736526722481874
+    Attrib PImg4=2    0.436627935955582
+    Attrib PImg5=1    0.22086295230362785
+    Attrib Tense - relaxed    0.03986653833860741
+    Attrib Authoritative -anarchic    -0.18747381018369838
+    Attrib Hostile - friendly    0.014485319900591726
+    Attrib TAudio1=C    -0.11380800179537721
+    Attrib TAudio1=A    0.3385128721347376
+    Attrib TAudio1=B    -0.12471457584330387
+    Attrib TAudio1=D    0.04267874659621795
+    Attrib TAudio2=0    0.4152943847793889
+    Attrib TAudio3=0    -0.37340883072397324
+    Attrib TAudio3=1    0.2658333041787164
+    Attrib TAudio3=2    0.19510735335960203
+    Attrib QAudio1=1    0.09188505368414007
+    Attrib QAudio1=2    0.005826246145783931
+    Attrib QAudio1=0    0.0841161950873032
+    Attrib QAudio2=0    0.44913783337386703
+    Attrib QAudio2=1    -0.3448374082419701
+    Attrib QAudio2=2    0.04606983111563931
+    Attrib QAudio3=0    0.029052570088770196
+    Attrib QAudio3=1    -0.10355280010791086
+    Attrib QAudio3=2    0.1950032708800067
+    Attrib Proxemics=0    0.13617437282840866
+    Attrib Proxemics=1    -0.07472983401517526
+    Attrib Proxemics=2    0.008967878296297051
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.05946857223820585
+    Attrib sex    0.03704676672889634
+    Attrib age    0.14507390714995827
+    Attrib country=germany    0.013248005368017879
+    Attrib country=uruguay    0.07535672591733761
+    Attrib country=spain    -0.04395618993574388
+    Attrib country=england    0.030721372264149036
+    Attrib country=russia    -0.13532928697241345
+    Attrib country=polish    0.027129255935832697
+    Attrib country=canada    0.1386675471546698
+    Attrib country=chile    0.08259453722390486
+    Attrib country=scotland    0.28999179492488486
+    Attrib country=italy    -0.1567060388377544
+    Attrib country=argentina    -0.009972704979644365
+    Attrib country=colombia    0.019799766950169502
+    Attrib country=cuba    0.08559931733610501
+    Attrib country=mexico    0.04189205853626459
+    Attrib country=hungary    0.16710813396251423
+    Attrib country=brasil    -0.21262855146407836
+    Attrib returning=1    0.18162102164344263
+    Attrib GImg1=0    -0.125605932271647
+    Attrib GImg1=2    0.29013521595464314
+    Attrib GImg1=1    -0.16998344512335906
+    Attrib GImg2=0    -0.2574146706401907
+    Attrib GImg2=1    -0.182276162590256
+    Attrib GImg2=2    0.45791129145826015
+    Attrib GImg3=0    -0.2509023655768477
+    Attrib GImg3=1    -0.3859271103077747
+    Attrib GImg3=2    0.7148045204788054
+    Attrib GImg3=    -0.008362407929950104
+    Attrib PImg1=1    0.01507699009243236
+    Attrib PImg2    -0.030588074143298838
+    Attrib PImg3=0    -0.1623028840974406
+    Attrib PImg3=1    -0.059264451292384744
+    Attrib PImg3=2    0.26587168234912023
+    Attrib PImg4=0    -0.21797485999652097
+    Attrib PImg4=1    0.216890246124428
+    Attrib PImg4=2    0.05037006778620524
+    Attrib PImg5=1    0.0775473318757143
+    Attrib Tense - relaxed    -0.13379926618076352
+    Attrib Authoritative -anarchic    -0.13590423949761685
+    Attrib Hostile - friendly    0.10501401798650564
+    Attrib TAudio1=C    -0.1949503137903361
+    Attrib TAudio1=A    0.16970538804753632
+    Attrib TAudio1=B    0.09461645265795927
+    Attrib TAudio1=D    -0.057510254195058695
+    Attrib TAudio2=0    0.09589931699538813
+    Attrib TAudio3=0    -0.33075452735931493
+    Attrib TAudio3=1    0.22571837142499487
+    Attrib TAudio3=2    0.08154661966361831
+    Attrib QAudio1=1    -0.023692511206990622
+    Attrib QAudio1=2    0.005971115427404561
+    Attrib QAudio1=0    -0.04813590031466391
+    Attrib QAudio2=0    0.14740492445063128
+    Attrib QAudio2=1    0.09208715330594039
+    Attrib QAudio2=2    -0.2801638514141958
+    Attrib QAudio3=0    0.04213066352658998
+    Attrib QAudio3=1    -0.12962477455875818
+    Attrib QAudio3=2    0.07044701805018076
+    Attrib Proxemics=0    0.09313234937323592
+    Attrib Proxemics=1    -0.006494046026606304
+    Attrib Proxemics=2    -0.08841474242910323
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.05068099798100665
+    Attrib sex    0.3440061738442526
+    Attrib age    0.008892529817529587
+    Attrib country=germany    -0.09470685666601963
+    Attrib country=uruguay    -0.12934732012748396
+    Attrib country=spain    0.10549427632401008
+    Attrib country=england    0.03605882234652398
+    Attrib country=russia    0.007191798509518778
+    Attrib country=polish    -0.030246215005005146
+    Attrib country=canada    -0.24596838932522994
+    Attrib country=chile    -0.059570679579777436
+    Attrib country=scotland    -0.017765991768227726
+    Attrib country=italy    0.15450457303606302
+    Attrib country=argentina    0.09851966069971016
+    Attrib country=colombia    0.03422921726455932
+    Attrib country=cuba    0.05467674795586767
+    Attrib country=mexico    0.016351673898350554
+    Attrib country=hungary    -0.09139972218578453
+    Attrib country=brasil    -0.3126999291794709
+    Attrib returning=1    0.31668596538286353
+    Attrib GImg1=0    -0.4133699596739697
+    Attrib GImg1=2    0.04927249815988256
+    Attrib GImg1=1    0.366378317272864
+    Attrib GImg2=0    -0.1261695016574259
+    Attrib GImg2=1    -0.060802113670944485
+    Attrib GImg2=2    0.11262036373013931
+    Attrib GImg3=0    0.25977617560398164
+    Attrib GImg3=1    -0.3917890192295578
+    Attrib GImg3=2    0.4277264218118959
+    Attrib GImg3=    -0.3336802802322493
+    Attrib PImg1=1    0.15173582661704332
+    Attrib PImg2    -0.0068432399302985475
+    Attrib PImg3=0    0.2687096549934826
+    Attrib PImg3=1    -0.4654492505992948
+    Attrib PImg3=2    0.2247232126040397
+    Attrib PImg4=0    0.36867408205980917
+    Attrib PImg4=1    -0.2549628795652569
+    Attrib PImg4=2    -0.16711569225856426
+    Attrib PImg5=1    -0.1416644584261414
+    Attrib Tense - relaxed    -0.17678179769265281
+    Attrib Authoritative -anarchic    -0.17233068794667344
+    Attrib Hostile - friendly    -0.5213130383065423
+    Attrib TAudio1=C    -0.1943241907896345
+    Attrib TAudio1=A    -0.0556044413427731
+    Attrib TAudio1=B    0.07377880811118455
+    Attrib TAudio1=D    0.10798374670834023
+    Attrib TAudio2=0    -0.5595942003863063
+    Attrib TAudio3=0    -0.1900762151379254
+    Attrib TAudio3=1    0.08126210111468044
+    Attrib TAudio3=2    0.11125384562037412
+    Attrib QAudio1=1    -0.07353606943124731
+    Attrib QAudio1=2    0.22280706310869727
+    Attrib QAudio1=0    -0.11443151434094954
+    Attrib QAudio2=0    0.21826001052381938
+    Attrib QAudio2=1    0.10791832957406584
+    Attrib QAudio2=2    -0.3040831035260264
+    Attrib QAudio3=0    0.1644681796272508
+    Attrib QAudio3=1    -0.16183849418377705
+    Attrib QAudio3=2    -0.039781574417188034
+    Attrib Proxemics=0    0.12072459336146896
+    Attrib Proxemics=1    0.015987651515318252
+    Attrib Proxemics=2    -0.09721458251727956
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.02110156111459855
+    Attrib sex    -0.459487962185052
+    Attrib age    0.09185278252669465
+    Attrib country=germany    0.1312372001438638
+    Attrib country=uruguay    -0.08860629001270794
+    Attrib country=spain    -0.19017789592965742
+    Attrib country=england    0.2201401481971574
+    Attrib country=russia    -0.26706090944796884
+    Attrib country=polish    0.04424125857354598
+    Attrib country=canada    -0.09377368050019287
+    Attrib country=chile    -0.03960973642967902
+    Attrib country=scotland    0.013839172863149849
+    Attrib country=italy    -0.09722330644460654
+    Attrib country=argentina    -0.1470987987888312
+    Attrib country=colombia    0.007933447968696506
+    Attrib country=cuba    -0.02333088510408756
+    Attrib country=mexico    -0.05128488963305541
+    Attrib country=hungary    0.19162605323306298
+    Attrib country=brasil    -0.09282804081484493
+    Attrib returning=1    -0.020825668871913262
+    Attrib GImg1=0    0.2338576522843128
+    Attrib GImg1=2    -0.006418612600255161
+    Attrib GImg1=1    -0.2031588175782127
+    Attrib GImg2=0    -0.1789212047781179
+    Attrib GImg2=1    0.1636855576262465
+    Attrib GImg2=2    0.0421639058572125
+    Attrib GImg3=0    -0.4247750134437185
+    Attrib GImg3=1    0.29571941094731397
+    Attrib GImg3=2    -0.09763889559251807
+    Attrib GImg3=    0.17844330730761226
+    Attrib PImg1=1    -0.058241696259936436
+    Attrib PImg2    0.03908181240802708
+    Attrib PImg3=0    -0.1541434221928546
+    Attrib PImg3=1    -0.05665889965648966
+    Attrib PImg3=2    0.22314176063583738
+    Attrib PImg4=0    -0.2996698933442814
+    Attrib PImg4=1    0.07356849257183257
+    Attrib PImg4=2    0.23728984060616265
+    Attrib PImg5=1    -0.05728687238238681
+    Attrib Tense - relaxed    -0.25359768091750895
+    Attrib Authoritative -anarchic    -0.37349486795109765
+    Attrib Hostile - friendly    0.4975972306393618
+    Attrib TAudio1=C    -0.08751944058241441
+    Attrib TAudio1=A    0.3627658526179654
+    Attrib TAudio1=B    -0.11261228498409781
+    Attrib TAudio1=D    -0.16989374107320868
+    Attrib TAudio2=0    0.7618067294098225
+    Attrib TAudio3=0    0.03530386217098747
+    Attrib TAudio3=1    0.1877872929388703
+    Attrib TAudio3=2    -0.20368339750439007
+    Attrib QAudio1=1    6.970818623082991E-4
+    Attrib QAudio1=2    -0.04137779223460869
+    Attrib QAudio1=0    0.1383223303924292
+    Attrib QAudio2=0    0.4178782500166626
+    Attrib QAudio2=1    -0.26438882974060296
+    Attrib QAudio2=2    -0.13552691530152405
+    Attrib QAudio3=0    -0.11844319431912202
+    Attrib QAudio3=1    0.07579104369555159
+    Attrib QAudio3=2    0.035009165402465854
+    Attrib Proxemics=0    -0.09976876364380408
+    Attrib Proxemics=1    0.12389952724253485
+    Attrib Proxemics=2    0.04427815348680081
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    0.06714461760167442
+    Attrib sex    0.21976721503514723
+    Attrib age    0.03501296455074174
+    Attrib country=germany    -0.006764560866207468
+    Attrib country=uruguay    -0.25942467127435526
+    Attrib country=spain    0.1362166636153722
+    Attrib country=england    0.09606165910977961
+    Attrib country=russia    0.3288113482506542
+    Attrib country=polish    -0.07674877972886675
+    Attrib country=canada    -0.4569841399509101
+    Attrib country=chile    -0.09668929599327954
+    Attrib country=scotland    -0.12681785150231403
+    Attrib country=italy    0.24804912692549919
+    Attrib country=argentina    -0.0052710815684386195
+    Attrib country=colombia    -0.020087082146107646
+    Attrib country=cuba    -0.002267005681775483
+    Attrib country=mexico    -0.0038645287660140225
+    Attrib country=hungary    -0.21006340940150142
+    Attrib country=brasil    -0.2737148406615455
+    Attrib returning=1    0.1096617363052714
+    Attrib GImg1=0    0.1641959519816826
+    Attrib GImg1=2    -0.3072170180437854
+    Attrib GImg1=1    0.11516866706333262
+    Attrib GImg2=0    0.04006406211451548
+    Attrib GImg2=1    -0.0398297063771817
+    Attrib GImg2=2    -0.10335416070518728
+    Attrib GImg3=0    0.07931001611417668
+    Attrib GImg3=1    0.025752194215349664
+    Attrib GImg3=2    -0.13695912859732468
+    Attrib GImg3=    -0.04139802531520404
+    Attrib PImg1=1    0.25167853315241556
+    Attrib PImg2    -0.006354872754265203
+    Attrib PImg3=0    0.6172735855453895
+    Attrib PImg3=1    -0.9390453448371726
+    Attrib PImg3=2    0.2712066052884161
+    Attrib PImg4=0    0.5638929858180695
+    Attrib PImg4=1    -0.09195862947720343
+    Attrib PImg4=2    -0.45828558429641114
+    Attrib PImg5=1    -0.26640255857278017
+    Attrib Tense - relaxed    -0.011336556549920544
+    Attrib Authoritative -anarchic    -0.5003763437459581
+    Attrib Hostile - friendly    -0.1826889781285902
+    Attrib TAudio1=C    -0.09484040047210245
+    Attrib TAudio1=A    0.11862959655076302
+    Attrib TAudio1=B    -0.07130735630964209
+    Attrib TAudio1=D    0.015035068074686315
+    Attrib TAudio2=0    -0.3253791241034941
+    Attrib TAudio3=0    0.00699845422964007
+    Attrib TAudio3=1    0.009856501590462648
+    Attrib TAudio3=2    0.009537136859808048
+    Attrib QAudio1=1    -0.05299706262692583
+    Attrib QAudio1=2    -0.07519271313251366
+    Attrib QAudio1=0    0.06865771257461616
+    Attrib QAudio2=0    0.31268494325588075
+    Attrib QAudio2=1    -0.03660801574534601
+    Attrib QAudio2=2    -0.24224589302304697
+    Attrib QAudio3=0    0.10730107391253947
+    Attrib QAudio3=1    -0.08586073645710847
+    Attrib QAudio3=2    -0.04616702800246945
+    Attrib Proxemics=0    -0.15587562981076772
+    Attrib Proxemics=1    0.07924714460620708
+    Attrib Proxemics=2    0.01140117029981204
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.0645443172303563
+    Attrib sex    -0.1934240334636119
+    Attrib age    0.12424606260363912
+    Attrib country=germany    0.053836392736572494
+    Attrib country=uruguay    0.14258629749682863
+    Attrib country=spain    0.06238839263659623
+    Attrib country=england    -0.09018958681596982
+    Attrib country=russia    -0.09455200492922265
+    Attrib country=polish    0.12876569641143548
+    Attrib country=canada    0.285320676684842
+    Attrib country=chile    0.1740886568275927
+    Attrib country=scotland    0.4701238544120646
+    Attrib country=italy    -0.16393439788017525
+    Attrib country=argentina    -0.04543858133636729
+    Attrib country=colombia    0.1464656915914735
+    Attrib country=cuba    0.06777971658269531
+    Attrib country=mexico    0.05437842738630961
+    Attrib country=hungary    0.13299064476129172
+    Attrib country=brasil    -0.01061227762430136
+    Attrib returning=1    -0.2717265965537057
+    Attrib GImg1=0    -0.04216018556228082
+    Attrib GImg1=2    0.5594267704289183
+    Attrib GImg1=1    -0.46277180517442423
+    Attrib GImg2=0    0.007740474230301239
+    Attrib GImg2=1    -0.02964224222306476
+    Attrib GImg2=2    0.13890055661624023
+    Attrib GImg3=0    0.012176483318366378
+    Attrib GImg3=1    -0.4022929608677555
+    Attrib GImg3=2    0.5186387703283791
+    Attrib GImg3=    0.004397013325578911
+    Attrib PImg1=1    0.08124575468441851
+    Attrib PImg2    0.029939512893493878
+    Attrib PImg3=0    -0.2349418078004064
+    Attrib PImg3=1    0.016514610678534037
+    Attrib PImg3=2    0.25367495301476445
+    Attrib PImg4=0    -0.13739381900585057
+    Attrib PImg4=1    -0.2644730919616759
+    Attrib PImg4=2    0.45215635763264916
+    Attrib PImg5=1    0.2691670887622979
+    Attrib Tense - relaxed    0.1317060921496112
+    Attrib Authoritative -anarchic    -0.16970978879375684
+    Attrib Hostile - friendly    0.025494709987660052
+    Attrib TAudio1=C    -0.1503740807571969
+    Attrib TAudio1=A    0.39300953701252794
+    Attrib TAudio1=B    -0.10595329420882905
+    Attrib TAudio1=D    0.027864111006745653
+    Attrib TAudio2=0    0.4344558152164587
+    Attrib TAudio3=0    -0.4674469364008138
+    Attrib TAudio3=1    0.2558514541934555
+    Attrib TAudio3=2    0.24691923138772776
+    Attrib QAudio1=1    0.10906740139820183
+    Attrib QAudio1=2    -0.09904659582522124
+    Attrib QAudio1=0    0.029799561018448793
+    Attrib QAudio2=0    0.44280450943734484
+    Attrib QAudio2=1    -0.36089675046299513
+    Attrib QAudio2=2    0.018190928025588426
+    Attrib QAudio3=0    0.059430721938384626
+    Attrib QAudio3=1    -0.13234151819822892
+    Attrib QAudio3=2    0.13690282800461057
+    Attrib Proxemics=0    0.2168763818547232
+    Attrib Proxemics=1    -0.13752865214704457
+    Attrib Proxemics=2    0.06673672013741526
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.08519103926768505
+    Attrib sex    -0.13304229781483207
+    Attrib age    -0.030196165683931346
+    Attrib country=germany    0.11196368777707452
+    Attrib country=uruguay    0.07843066736538616
+    Attrib country=spain    0.0440052459666422
+    Attrib country=england    -0.24052242425827192
+    Attrib country=russia    -0.02372496249418605
+    Attrib country=polish    0.12967129068581204
+    Attrib country=canada    0.5027782693961476
+    Attrib country=chile    0.17650852457932267
+    Attrib country=scotland    0.537758208613591
+    Attrib country=italy    -0.2849184230144292
+    Attrib country=argentina    0.04168039821795554
+    Attrib country=colombia    0.16820086518970773
+    Attrib country=cuba    0.07917150675610937
+    Attrib country=mexico    0.09377452728201582
+    Attrib country=hungary    0.11340593817927842
+    Attrib country=brasil    -0.09015009067060653
+    Attrib returning=1    -0.05418312254869611
+    Attrib GImg1=0    0.03874309453055723
+    Attrib GImg1=2    0.6302539836580737
+    Attrib GImg1=1    -0.5719210505594794
+    Attrib GImg2=0    -0.09133377218039948
+    Attrib GImg2=1    -0.17429268487606545
+    Attrib GImg2=2    0.39033732276615496
+    Attrib GImg3=0    -0.06539041015325825
+    Attrib GImg3=1    -0.6670595309049172
+    Attrib GImg3=2    0.8569004314962313
+    Attrib GImg3=    0.048315615825001254
+    Attrib PImg1=1    0.07416845684872635
+    Attrib PImg2    0.028052135404537715
+    Attrib PImg3=0    -0.13258959137434578
+    Attrib PImg3=1    -0.08792353573496968
+    Attrib PImg3=2    0.3578952949349629
+    Attrib PImg4=0    -0.15044015656797832
+    Attrib PImg4=1    -0.33785659113548694
+    Attrib PImg4=2    0.5650330338091347
+    Attrib PImg5=1    0.332812931538085
+    Attrib Tense - relaxed    0.16669274339135007
+    Attrib Authoritative -anarchic    -0.10704944766380446
+    Attrib Hostile - friendly    0.024895565305356047
+    Attrib TAudio1=C    -0.25825806929557066
+    Attrib TAudio1=A    0.3240153803088293
+    Attrib TAudio1=B    0.07322681171450521
+    Attrib TAudio1=D    0.04520440529269943
+    Attrib TAudio2=0    0.1466773170416661
+    Attrib TAudio3=0    -0.3875328687513474
+    Attrib TAudio3=1    0.2777902594305082
+    Attrib TAudio3=2    0.2910356966753992
+    Attrib QAudio1=1    0.0880956747216268
+    Attrib QAudio1=2    -0.07526706401930909
+    Attrib QAudio1=0    0.1193819111840096
+    Attrib QAudio2=0    0.28441006477572073
+    Attrib QAudio2=1    -0.024779191697044838
+    Attrib QAudio2=2    -0.12389610375732926
+    Attrib QAudio3=0    0.16834991018432904
+    Attrib QAudio3=1    -0.25042538063108477
+    Attrib QAudio3=2    0.1584117208207332
+    Attrib Proxemics=0    0.29902134920897483
+    Attrib Proxemics=1    -0.2039590970248148
+    Attrib Proxemics=2    0.0068293380670329225
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.010655212789760936
+    Attrib sex    0.5000633851378151
+    Attrib age    -0.08956547874077601
+    Attrib country=germany    -0.1818383969533563
+    Attrib country=uruguay    -0.1271284004156079
+    Attrib country=spain    0.21179699813271288
+    Attrib country=england    -0.22759729692817793
+    Attrib country=russia    0.255435208766821
+    Attrib country=polish    0.023249430469427828
+    Attrib country=canada    -0.04189918049819631
+    Attrib country=chile    -0.05677589762656444
+    Attrib country=scotland    0.039964899075980054
+    Attrib country=italy    0.16341372055661077
+    Attrib country=argentina    0.16437871548823707
+    Attrib country=colombia    0.022729183913143814
+    Attrib country=cuba    -0.042853483514491246
+    Attrib country=mexico    0.05537507742546162
+    Attrib country=hungary    -0.16919779640728624
+    Attrib country=brasil    -0.24515021534484374
+    Attrib returning=1    0.14592449661436832
+    Attrib GImg1=0    -0.40990226615464004
+    Attrib GImg1=2    -0.010027010680784414
+    Attrib GImg1=1    0.3862055028306475
+    Attrib GImg2=0    -0.024636274237385153
+    Attrib GImg2=1    -0.2593758943642859
+    Attrib GImg2=2    0.23420553424775736
+    Attrib GImg3=0    0.36402236606957533
+    Attrib GImg3=1    -0.6086495152818223
+    Attrib GImg3=2    0.6002002867504657
+    Attrib GImg3=    -0.3409892565550938
+    Attrib PImg1=1    0.2284608694157379
+    Attrib PImg2    -0.0011659095092664967
+    Attrib PImg3=0    0.3498226676348521
+    Attrib PImg3=1    -0.3668230363362848
+    Attrib PImg3=2    -6.079717396287736E-4
+    Attrib PImg4=0    0.5355455990164348
+    Attrib PImg4=1    -0.412239802660583
+    Attrib PImg4=2    -0.10446217294722224
+    Attrib PImg5=1    -0.09539251781834725
+    Attrib Tense - relaxed    0.046431761355171276
+    Attrib Authoritative -anarchic    -0.0013701511077123091
+    Attrib Hostile - friendly    -0.6918329183280031
+    Attrib TAudio1=C    -0.15415796078496377
+    Attrib TAudio1=A    -0.09715194253272699
+    Attrib TAudio1=B    0.06304516102901431
+    Attrib TAudio1=D    0.14855191311875787
+    Attrib TAudio2=0    -0.8265776110077545
+    Attrib TAudio3=0    -0.21073359288186894
+    Attrib TAudio3=1    -0.03600526031721979
+    Attrib TAudio3=2    0.20573022319618314
+    Attrib QAudio1=1    -0.13351007600644646
+    Attrib QAudio1=2    0.23354255503126622
+    Attrib QAudio1=0    -0.11843794173781748
+    Attrib QAudio2=0    -0.005541809653555428
+    Attrib QAudio2=1    0.28404611263901375
+    Attrib QAudio2=2    -0.22337633223080025
+    Attrib QAudio3=0    0.3464400266398467
+    Attrib QAudio3=1    -0.3426398846883704
+    Attrib QAudio3=2    0.009072480023405678
+    Attrib Proxemics=0    0.1709563047290564
+    Attrib Proxemics=1    -0.10535701657218245
+    Attrib Proxemics=2    -0.12255885017636907
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.021167310053412904
+    Attrib sex    0.30539925800046863
+    Attrib age    0.17372609160154295
+    Attrib country=germany    0.0874532171201202
+    Attrib country=uruguay    -0.08177483551903277
+    Attrib country=spain    0.23865974611367027
+    Attrib country=england    0.36817850355582693
+    Attrib country=russia    0.06287209953476941
+    Attrib country=polish    0.015620217539134245
+    Attrib country=canada    -0.7135183136945261
+    Attrib country=chile    0.07978137550408958
+    Attrib country=scotland    -0.16114073218594618
+    Attrib country=italy    0.474898977098745
+    Attrib country=argentina    0.005863863487200931
+    Attrib country=colombia    0.06111177320117982
+    Attrib country=cuba    0.26660231981796356
+    Attrib country=mexico    0.1067299920716228
+    Attrib country=hungary    -0.004433480971183883
+    Attrib country=brasil    -0.08750892735127003
+    Attrib returning=1    0.22083719765717838
+    Attrib GImg1=0    -0.40463931512625995
+    Attrib GImg1=2    -0.08080173391273925
+    Attrib GImg1=1    0.5458483044194016
+    Attrib GImg2=0    0.04532697760460605
+    Attrib GImg2=1    0.20259382729737851
+    Attrib GImg2=2    -0.20120630868546555
+    Attrib GImg3=0    0.43161177141860463
+    Attrib GImg3=1    0.33430783921312907
+    Attrib GImg3=2    -0.35035457105646167
+    Attrib GImg3=    -0.31554259280206975
+    Attrib PImg1=1    0.060848969973473874
+    Attrib PImg2    -0.016367460293309023
+    Attrib PImg3=0    0.3116159676372214
+    Attrib PImg3=1    -0.5927712140291883
+    Attrib PImg3=2    0.3760069274218724
+    Attrib PImg4=0    0.5515273716229478
+    Attrib PImg4=1    -0.04007978238074286
+    Attrib PImg4=2    -0.47149367887174043
+    Attrib PImg5=1    -0.169659505439704
+    Attrib Tense - relaxed    -0.30519541793697846
+    Attrib Authoritative -anarchic    -0.3568990926295892
+    Attrib Hostile - friendly    -0.5229053429291313
+    Attrib TAudio1=C    0.06690087904005441
+    Attrib TAudio1=A    -0.15757145922398527
+    Attrib TAudio1=B    0.034159522539079945
+    Attrib TAudio1=D    0.1207327116965773
+    Attrib TAudio2=0    -0.5636275449802114
+    Attrib TAudio3=0    -0.05392639711890419
+    Attrib TAudio3=1    -0.01583339045778003
+    Attrib TAudio3=2    0.08302388372913944
+    Attrib QAudio1=1    -0.07188711221375656
+    Attrib QAudio1=2    0.2902887946613309
+    Attrib QAudio1=0    -0.14885156621817713
+    Attrib QAudio2=0    0.4208180635222747
+    Attrib QAudio2=1    -0.22410415357719896
+    Attrib QAudio2=2    -0.10758599396733129
+    Attrib QAudio3=0    -0.1297897970823923
+    Attrib QAudio3=1    0.17265367058626313
+    Attrib QAudio3=2    -0.02161600568077408
+    Attrib Proxemics=0    -0.06561398101995368
+    Attrib Proxemics=1    0.16083547389117928
+    Attrib Proxemics=2    -0.09837001395970002
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -0.030458473704057697
+    Attrib sex    -0.07554548859319636
+    Attrib age    -0.06308150267893821
+    Attrib country=germany    0.042468799891244795
+    Attrib country=uruguay    0.1049873618308782
+    Attrib country=spain    0.028618559015347846
+    Attrib country=england    -0.332506881352103
+    Attrib country=russia    -0.12112913524651787
+    Attrib country=polish    0.12230337547270204
+    Attrib country=canada    0.538546988644513
+    Attrib country=chile    0.05877532166974095
+    Attrib country=scotland    0.376180845147784
+    Attrib country=italy    -0.20192151487315665
+    Attrib country=argentina    0.11287137316004128
+    Attrib country=colombia    0.10450459374318882
+    Attrib country=cuba    0.041032036352575206
+    Attrib country=mexico    0.011763378405329507
+    Attrib country=hungary    0.2035840113389906
+    Attrib country=brasil    -0.13760405269622158
+    Attrib returning=1    0.16517753486068712
+    Attrib GImg1=0    -0.05930145759739958
+    Attrib GImg1=2    0.5250567262048486
+    Attrib GImg1=1    -0.37673295595498796
+    Attrib GImg2=0    -0.12934538300997003
+    Attrib GImg2=1    -0.28928879090986687
+    Attrib GImg2=2    0.5149154599143082
+    Attrib GImg3=0    -0.11034509147853207
+    Attrib GImg3=1    -0.7219459357445543
+    Attrib GImg3=2    0.9334756311924871
+    Attrib GImg3=    0.04328733493124581
+    Attrib PImg1=1    0.06221275093280332
+    Attrib PImg2    -0.04577984642343165
+    Attrib PImg3=0    -0.15751235980811626
+    Attrib PImg3=1    0.09037644884087982
+    Attrib PImg3=2    0.13504883732547218
+    Attrib PImg4=0    -0.22639551927662463
+    Attrib PImg4=1    -0.13559280756313324
+    Attrib PImg4=2    0.36628193765836214
+    Attrib PImg5=1    0.13763612141311876
+    Attrib Tense - relaxed    -0.0409810851216545
+    Attrib Authoritative -anarchic    0.03540303181570004
+    Attrib Hostile - friendly    -0.04965961265683576
+    Attrib TAudio1=C    -0.22047819679468064
+    Attrib TAudio1=A    0.0758330420532233
+    Attrib TAudio1=B    0.2440636152181978
+    Attrib TAudio1=D    0.08420553866141449
+    Attrib TAudio2=0    -0.1639694759966994
+    Attrib TAudio3=0    -0.19797868094263577
+    Attrib TAudio3=1    0.10019443192559103
+    Attrib TAudio3=2    0.22941393724877307
+    Attrib QAudio1=1    0.029811996866152126
+    Attrib QAudio1=2    -0.06074141067259744
+    Attrib QAudio1=0    0.05234004044918381
+    Attrib QAudio2=0    -0.0706260026852775
+    Attrib QAudio2=1    0.3767802593577851
+    Attrib QAudio2=2    -0.18376996026659545
+    Attrib QAudio3=0    0.29127707649974705
+    Attrib QAudio3=1    -0.326336335167698
+    Attrib QAudio3=2    0.16171805753659504
+    Attrib Proxemics=0    0.29721602129683244
+    Attrib Proxemics=1    -0.1828743905009971
+    Attrib Proxemics=2    0.05519063161897177
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -0.13091199934065492
+    Attrib sex    0.025883700467836564
+    Attrib age    -0.016525165132866445
+    Attrib country=germany    0.2085932806473191
+    Attrib country=uruguay    0.04874959491328715
+    Attrib country=spain    -0.06644851408777637
+    Attrib country=england    0.5174432712346039
+    Attrib country=russia    -0.1791623788192796
+    Attrib country=polish    0.056861869763204544
+    Attrib country=canada    -0.16733377735983546
+    Attrib country=chile    0.03649682067615471
+    Attrib country=scotland    -0.17633831363614405
+    Attrib country=italy    0.2299252498733151
+    Attrib country=argentina    0.13896761193662233
+    Attrib country=colombia    0.037485554874837686
+    Attrib country=cuba    0.2476140818239156
+    Attrib country=mexico    0.0013618475488220896
+    Attrib country=hungary    0.20120229116360697
+    Attrib country=brasil    -0.06949056779240714
+    Attrib returning=1    0.6797627047949104
+    Attrib GImg1=0    -0.12568213540093587
+    Attrib GImg1=2    0.01262968565366317
+    Attrib GImg1=1    0.1830702684283874
+    Attrib GImg2=0    -0.2671655686083698
+    Attrib GImg2=1    0.08563204616782753
+    Attrib GImg2=2    0.3035238008727092
+    Attrib GImg3=0    -0.34165234404151773
+    Attrib GImg3=1    0.3420071870642149
+    Attrib GImg3=2    -0.03376630560769815
+    Attrib GImg3=    0.15863841307395624
+    Attrib PImg1=1    -0.15394941458898392
+    Attrib PImg2    0.004275610371224106
+    Attrib PImg3=0    -0.24844163176053316
+    Attrib PImg3=1    0.3982263304174775
+    Attrib PImg3=2    0.06096007933039238
+    Attrib PImg4=0    -0.34902103843756427
+    Attrib PImg4=1    0.7624117677863185
+    Attrib PImg4=2    -0.3623869550748828
+    Attrib PImg5=1    -0.21577688585164023
+    Attrib Tense - relaxed    -0.4175308211912705
+    Attrib Authoritative -anarchic    -0.1150861542771652
+    Attrib Hostile - friendly    0.32045583433146785
+    Attrib TAudio1=C    -0.049839374366753376
+    Attrib TAudio1=A    -0.3640249968876166
+    Attrib TAudio1=B    0.628020616582711
+    Attrib TAudio1=D    -0.032681147364112005
+    Attrib TAudio2=0    -0.32895010994567997
+    Attrib TAudio3=0    0.2636003364087607
+    Attrib TAudio3=1    -0.09778486490057128
+    Attrib TAudio3=2    -0.04170037159020692
+    Attrib QAudio1=1    -0.15689377547490452
+    Attrib QAudio1=2    0.28155734921424985
+    Attrib QAudio1=0    0.05140723628204486
+    Attrib QAudio2=0    -0.18664191310729233
+    Attrib QAudio2=1    0.36586035979421977
+    Attrib QAudio2=2    -0.07607606864038635
+    Attrib QAudio3=0    -0.09820870810455519
+    Attrib QAudio3=1    0.1531531293381407
+    Attrib QAudio3=2    0.04248363907127356
+    Attrib Proxemics=0    -0.022507656172046437
+    Attrib Proxemics=1    0.04300509704882362
+    Attrib Proxemics=2    0.04842875499197329
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    0.023921005727271183
+    Attrib sex    -0.11990987290636526
+    Attrib age    0.0148982396423184
+    Attrib country=germany    0.041209963721687615
+    Attrib country=uruguay    -0.1672996959875857
+    Attrib country=spain    -0.050776236385460374
+    Attrib country=england    -0.06606888475737437
+    Attrib country=russia    0.06534192222366299
+    Attrib country=polish    -0.0192055473567053
+    Attrib country=canada    0.0026171095209825074
+    Attrib country=chile    -0.019224273318764792
+    Attrib country=scotland    -0.009106126152891473
+    Attrib country=italy    0.02520627074831404
+    Attrib country=argentina    0.05914646860600262
+    Attrib country=colombia    -0.007021807839829051
+    Attrib country=cuba    -0.02578266543051078
+    Attrib country=mexico    -0.07018191535597762
+    Attrib country=hungary    0.002382036138562942
+    Attrib country=brasil    -0.20491951805485847
+    Attrib returning=1    0.2775535082440095
+    Attrib GImg1=0    0.33010939606655754
+    Attrib GImg1=2    -0.22358856249834133
+    Attrib GImg1=1    -0.09454773055980674
+    Attrib GImg2=0    -0.12687228897302427
+    Attrib GImg2=1    -0.22090410615410244
+    Attrib GImg2=2    0.2430978276875335
+    Attrib GImg3=0    -0.2746548627217454
+    Attrib GImg3=1    -0.10950805304679723
+    Attrib GImg3=2    0.187069762153588
+    Attrib GImg3=    0.16987700107768466
+    Attrib PImg1=1    0.13500665320756688
+    Attrib PImg2    0.005479799572481479
+    Attrib PImg3=0    0.22184035488012943
+    Attrib PImg3=1    -0.2376031616752782
+    Attrib PImg3=2    0.02228230481258681
+    Attrib PImg4=0    -0.0014792286892343243
+    Attrib PImg4=1    0.1934788953592949
+    Attrib PImg4=2    -0.17172102797557257
+    Attrib PImg5=1    -0.18226119070665217
+    Attrib Tense - relaxed    0.021667674149173515
+    Attrib Authoritative -anarchic    -0.17309566064421356
+    Attrib Hostile - friendly    0.27822451602359444
+    Attrib TAudio1=C    -0.2070992229875475
+    Attrib TAudio1=A    0.06254625019122381
+    Attrib TAudio1=B    0.10385040883230334
+    Attrib TAudio1=D    -0.1282098903014237
+    Attrib TAudio2=0    0.08768516128088179
+    Attrib TAudio3=0    0.034343805503508254
+    Attrib TAudio3=1    0.05443681764905734
+    Attrib TAudio3=2    -0.1457067928166038
+    Attrib QAudio1=1    -0.002770609416590593
+    Attrib QAudio1=2    -0.1171719148381109
+    Attrib QAudio1=0    0.1785789233154616
+    Attrib QAudio2=0    -0.07387743262793313
+    Attrib QAudio2=1    0.2076390726302534
+    Attrib QAudio2=2    -0.2105106091932431
+    Attrib QAudio3=0    0.0759080237204346
+    Attrib QAudio3=1    -0.062221068597213124
+    Attrib QAudio3=2    -0.06353327759360677
+    Attrib Proxemics=0    -0.10262905925998454
+    Attrib Proxemics=1    0.05992832373719904
+    Attrib Proxemics=2    0.03513311426550324
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    0.03812788659303799
+    Attrib sex    0.30667743597720615
+    Attrib age    -0.04446489641684582
+    Attrib country=germany    -0.11938015569118395
+    Attrib country=uruguay    0.0231163752639769
+    Attrib country=spain    0.11566655244958617
+    Attrib country=england    -0.08579059180060783
+    Attrib country=russia    0.1027998943167743
+    Attrib country=polish    -0.020135817569376522
+    Attrib country=canada    -0.11825614236809036
+    Attrib country=chile    0.012757959512943132
+    Attrib country=scotland    -0.04120074809073385
+    Attrib country=italy    0.07844750937223374
+    Attrib country=argentina    0.006363708306513816
+    Attrib country=colombia    -0.04791931244178293
+    Attrib country=cuba    -0.042636735495206184
+    Attrib country=mexico    0.030760136243318647
+    Attrib country=hungary    -0.029076794392760515
+    Attrib country=brasil    -0.011284275032930412
+    Attrib returning=1    -0.1481807928066674
+    Attrib GImg1=0    -0.12479517427692113
+    Attrib GImg1=2    -0.27814602735993404
+    Attrib GImg1=1    0.34946040236521136
+    Attrib GImg2=0    0.09467858522878275
+    Attrib GImg2=1    0.10965937471963298
+    Attrib GImg2=2    -0.13700167852825715
+    Attrib GImg3=0    0.25593458182296946
+    Attrib GImg3=1    0.011709812587214881
+    Attrib GImg3=2    -0.04828532233886194
+    Attrib GImg3=    -0.21624339153513544
+    Attrib PImg1=1    0.17699942529096366
+    Attrib PImg2    0.04502616430307056
+    Attrib PImg3=0    0.22028411122280445
+    Attrib PImg3=1    -0.06949544837578377
+    Attrib PImg3=2    -0.1932892776213653
+    Attrib PImg4=0    0.29582690287608576
+    Attrib PImg4=1    -0.2887331027376501
+    Attrib PImg4=2    0.0077760330191344
+    Attrib PImg5=1    -0.012743615063437347
+    Attrib Tense - relaxed    0.025408663205840294
+    Attrib Authoritative -anarchic    0.13045170447466312
+    Attrib Hostile - friendly    -0.29950452753855916
+    Attrib TAudio1=C    0.1250916191113561
+    Attrib TAudio1=A    -0.049468909507309214
+    Attrib TAudio1=B    -0.21142617452250675
+    Attrib TAudio1=D    0.09040942386859718
+    Attrib TAudio2=0    -0.23839205610908382
+    Attrib TAudio3=0    0.0160969719613428
+    Attrib TAudio3=1    -0.06033860702179795
+    Attrib TAudio3=2    0.08496709138803203
+    Attrib QAudio1=1    0.08672868925754797
+    Attrib QAudio1=2    0.04343076363088163
+    Attrib QAudio1=0    -0.05127757871997563
+    Attrib QAudio2=0    -0.002827378098756413
+    Attrib QAudio2=1    0.08123599579879176
+    Attrib QAudio2=2    -0.051846656091969076
+    Attrib QAudio3=0    0.12670305335633902
+    Attrib QAudio3=1    -0.04981202701426349
+    Attrib QAudio3=2    -0.002432691005550052
+    Attrib Proxemics=0    -0.03902768116552313
+    Attrib Proxemics=1    -0.010404935887393635
+    Attrib Proxemics=2    -0.002966264955020923
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    0.015029975736248927
+    Attrib sex    -0.31550921797538956
+    Attrib age    0.07339071691186659
+    Attrib country=germany    0.20353542380052891
+    Attrib country=uruguay    -0.24743678293168356
+    Attrib country=spain    -0.17225039175463808
+    Attrib country=england    0.28111779906048895
+    Attrib country=russia    0.08446943937926556
+    Attrib country=polish    -0.019832986386446146
+    Attrib country=canada    -0.07680389327156993
+    Attrib country=chile    -0.0014111155536730958
+    Attrib country=scotland    -0.124068504576141
+    Attrib country=italy    0.08985930656809273
+    Attrib country=argentina    0.0609788797970115
+    Attrib country=colombia    -0.036712446983006054
+    Attrib country=cuba    0.1277629781981449
+    Attrib country=mexico    -0.03842602382540414
+    Attrib country=hungary    0.12277178957728817
+    Attrib country=brasil    -0.17599406714683763
+    Attrib returning=1    0.414652112765081
+    Attrib GImg1=0    0.5189527002439188
+    Attrib GImg1=2    -0.2903445399041006
+    Attrib GImg1=1    -0.28295019036670277
+    Attrib GImg2=0    -0.11968339065124937
+    Attrib GImg2=1    -0.015904706723325387
+    Attrib GImg2=2    0.24099571051066324
+    Attrib GImg3=0    -0.5620372245961704
+    Attrib GImg3=1    0.36595194688266974
+    Attrib GImg3=2    -0.13915062505501322
+    Attrib GImg3=    0.4267215924700684
+    Attrib PImg1=1    0.03124334248811048
+    Attrib PImg2    -0.02854294919307554
+    Attrib PImg3=0    0.08089550589316145
+    Attrib PImg3=1    -0.1838720871963535
+    Attrib PImg3=2    0.11206814017279534
+    Attrib PImg4=0    -0.20722573989177775
+    Attrib PImg4=1    0.5066229895800861
+    Attrib PImg4=2    -0.3330790889642376
+    Attrib PImg5=1    -0.15333845191317716
+    Attrib Tense - relaxed    -0.17350944912825308
+    Attrib Authoritative -anarchic    -0.4103581466297752
+    Attrib Hostile - friendly    0.608482639081179
+    Attrib TAudio1=C    -0.08450649187657445
+    Attrib TAudio1=A    0.08632206621102188
+    Attrib TAudio1=B    0.17965109173438168
+    Attrib TAudio1=D    -0.1345254374420526
+    Attrib TAudio2=0    0.23021717548164106
+    Attrib TAudio3=0    0.27242991703447195
+    Attrib TAudio3=1    -0.04973836252660702
+    Attrib TAudio3=2    -0.20801736780335703
+    Attrib QAudio1=1    -0.09273874410313848
+    Attrib QAudio1=2    -0.12158456189567848
+    Attrib QAudio1=0    0.20434362536748102
+    Attrib QAudio2=0    0.00983349186221686
+    Attrib QAudio2=1    0.2050043803663766
+    Attrib QAudio2=2    -0.20376274422470736
+    Attrib QAudio3=0    0.03557503002591424
+    Attrib QAudio3=1    0.04084735267988381
+    Attrib QAudio3=2    -0.001433858603499464
+    Attrib Proxemics=0    -0.22661510526960868
+    Attrib Proxemics=1    0.1409480554544266
+    Attrib Proxemics=2    0.1538930888665533
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -0.041894253903673566
+    Attrib sex    0.03260128388763358
+    Attrib age    0.25824469248799836
+    Attrib country=germany    0.22317406792107258
+    Attrib country=uruguay    -0.03116978084759786
+    Attrib country=spain    0.16617946341395276
+    Attrib country=england    0.5975837288096987
+    Attrib country=russia    -0.05357525996434237
+    Attrib country=polish    0.04874222781379185
+    Attrib country=canada    -0.7847356955261322
+    Attrib country=chile    0.0455604104222628
+    Attrib country=scotland    -0.13945002814899535
+    Attrib country=italy    0.588650382789254
+    Attrib country=argentina    0.042906511152402196
+    Attrib country=colombia    0.04477747415447649
+    Attrib country=cuba    0.33449485247869254
+    Attrib country=mexico    0.1330124318116456
+    Attrib country=hungary    0.09048546843617372
+    Attrib country=brasil    -0.1012793351352227
+    Attrib returning=1    0.3671819299812689
+    Attrib GImg1=0    -0.274093731553147
+    Attrib GImg1=2    -0.1215157137530015
+    Attrib GImg1=1    0.5101594942029336
+    Attrib GImg2=0    0.07496559473510868
+    Attrib GImg2=1    0.23008975013625801
+    Attrib GImg2=2    -0.19790922390448953
+    Attrib GImg3=0    0.19093712427925835
+    Attrib GImg3=1    0.6896703787866523
+    Attrib GImg3=2    -0.6252437002301638
+    Attrib GImg3=    -0.026842655057385426
+    Attrib PImg1=1    0.007285599689662736
+    Attrib PImg2    -0.037750954134011805
+    Attrib PImg3=0    0.22845067422254037
+    Attrib PImg3=1    -0.41989274226482654
+    Attrib PImg3=2    0.27661560120144957
+    Attrib PImg4=0    0.3302835915338868
+    Attrib PImg4=1    0.2924859730680429
+    Attrib PImg4=2    -0.54476535824254
+    Attrib PImg5=1    -0.208227735791654
+    Attrib Tense - relaxed    -0.4693470672111513
+    Attrib Authoritative -anarchic    -0.5072565475615782
+    Attrib Hostile - friendly    -0.05555150366537461
+    Attrib TAudio1=C    -0.0062062212772353124
+    Attrib TAudio1=A    -0.12774615490060398
+    Attrib TAudio1=B    0.23313587881863443
+    Attrib TAudio1=D    0.13876724638246443
+    Attrib TAudio2=0    -0.20211700669179455
+    Attrib TAudio3=0    0.11295693109172052
+    Attrib TAudio3=1    0.04936928827611969
+    Attrib TAudio3=2    -0.0748173751293723
+    Attrib QAudio1=1    -0.1296794645641518
+    Attrib QAudio1=2    0.22048156070522912
+    Attrib QAudio1=0    0.014207982566993347
+    Attrib QAudio2=0    0.4087810231284821
+    Attrib QAudio2=1    -0.2727209184707435
+    Attrib QAudio2=2    -0.03656662817122729
+    Attrib QAudio3=0    -0.33194578183699947
+    Attrib QAudio3=1    0.3572082799505012
+    Attrib QAudio3=2    0.030873685533920163
+    Attrib Proxemics=0    -0.15179128415112814
+    Attrib Proxemics=1    0.22336740236592673
+    Attrib Proxemics=2    -0.030576049664877168
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    0.034271620376706266
+    Attrib sex    0.4765040025721324
+    Attrib age    -0.24436870296655827
+    Attrib country=germany    -0.16644162719033792
+    Attrib country=uruguay    0.12383566116207467
+    Attrib country=spain    0.18722003785331584
+    Attrib country=england    -0.4005020898475588
+    Attrib country=russia    0.07610426633714643
+    Attrib country=polish    -0.048567844349997565
+    Attrib country=canada    -0.013105092673346683
+    Attrib country=chile    -0.0354810978077362
+    Attrib country=scotland    -0.17638080146296564
+    Attrib country=italy    0.046618195782557374
+    Attrib country=argentina    0.11318893142894682
+    Attrib country=colombia    -0.040013574511972995
+    Attrib country=cuba    -0.03172354463684121
+    Attrib country=mexico    0.0071615615315844885
+    Attrib country=hungary    -0.058785593773145794
+    Attrib country=brasil    0.2660644885698052
+    Attrib returning=1    -0.05831548523044604
+    Attrib GImg1=0    -0.45783313637848305
+    Attrib GImg1=2    -0.20795291868453764
+    Attrib GImg1=1    0.6431304865521044
+    Attrib GImg2=0    0.21403508775955288
+    Attrib GImg2=1    0.11059478247651039
+    Attrib GImg2=2    -0.27474011977184754
+    Attrib GImg3=0    0.6444770131994451
+    Attrib GImg3=1    -0.018212159857911817
+    Attrib GImg3=2    -0.1636507501900524
+    Attrib GImg3=    -0.38354697447825764
+    Attrib PImg1=1    -0.019717488067593027
+    Attrib PImg2    -0.011875732008598719
+    Attrib PImg3=0    -0.025861414557240996
+    Attrib PImg3=1    0.5885726885299918
+    Attrib PImg3=2    -0.5668564393048096
+    Attrib PImg4=0    0.3491362381601319
+    Attrib PImg4=1    -0.1962683004012714
+    Attrib PImg4=2    -0.12710644764858176
+    Attrib PImg5=1    0.02431011032251097
+    Attrib Tense - relaxed    0.09058382331272986
+    Attrib Authoritative -anarchic    0.7694441414459091
+    Attrib Hostile - friendly    -0.6848668135405783
+    Attrib TAudio1=C    0.3438106097668237
+    Attrib TAudio1=A    -0.6037589677507337
+    Attrib TAudio1=B    0.1209931624058222
+    Attrib TAudio1=D    0.17324723278810067
+    Attrib TAudio2=0    -0.7727986369065126
+    Attrib TAudio3=0    0.18295177722691477
+    Attrib TAudio3=1    -0.34516442086026994
+    Attrib TAudio3=2    0.1906951079808782
+    Attrib QAudio1=1    0.0493700719934364
+    Attrib QAudio1=2    0.16030323916617553
+    Attrib QAudio1=0    -0.28088415876657824
+    Attrib QAudio2=0    -0.7433514627968674
+    Attrib QAudio2=1    0.3810012091863842
+    Attrib QAudio2=2    0.3066171559116066
+    Attrib QAudio3=0    0.09537564520844044
+    Attrib QAudio3=1    -0.07423054953288592
+    Attrib QAudio3=2    -0.038624668310918646
+    Attrib Proxemics=0    0.19579079243683212
+    Attrib Proxemics=1    -0.20230667687935186
+    Attrib Proxemics=2    -0.06381180203338323
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -0.03898510109784326
+    Attrib sex    -0.027931483064329993
+    Attrib age    0.05338386480614708
+    Attrib country=germany    0.05654539820679296
+    Attrib country=uruguay    0.1417079460599933
+    Attrib country=spain    -0.07757482658205432
+    Attrib country=england    0.20688568748576544
+    Attrib country=russia    -0.2827040303066927
+    Attrib country=polish    0.038781254030478565
+    Attrib country=canada    -0.0596278836076827
+    Attrib country=chile    0.031214593651931796
+    Attrib country=scotland    -0.0564797221031013
+    Attrib country=italy    0.04658946733951694
+    Attrib country=argentina    -0.039337158255368994
+    Attrib country=colombia    0.033968926032168285
+    Attrib country=cuba    0.11299931617735222
+    Attrib country=mexico    -0.04148376952241673
+    Attrib country=hungary    0.019420342173007588
+    Attrib country=brasil    0.13039136844630844
+    Attrib returning=1    0.12230969116195488
+    Attrib GImg1=0    -0.3334539361322566
+    Attrib GImg1=2    0.1541743841128274
+    Attrib GImg1=1    0.2569087366997928
+    Attrib GImg2=0    -0.09243914633176484
+    Attrib GImg2=1    0.15948575833456508
+    Attrib GImg2=2    0.0029217063034153072
+    Attrib GImg3=0    -0.04830953817650585
+    Attrib GImg3=1    0.23677709834250882
+    Attrib GImg3=2    -0.06902558777847495
+    Attrib GImg3=    -0.10343863721510545
+    Attrib PImg1=1    -0.23838320153284007
+    Attrib PImg2    -0.025107231019751198
+    Attrib PImg3=0    -0.43131453644951473
+    Attrib PImg3=1    0.39521080121117047
+    Attrib PImg3=2    -0.06317534019678549
+    Attrib PImg4=0    -0.24203664290630864
+    Attrib PImg4=1    0.22349041812900733
+    Attrib PImg4=2    0.05354758089188905
+    Attrib PImg5=1    0.01942227839794851
+    Attrib Tense - relaxed    -0.3168006976814351
+    Attrib Authoritative -anarchic    0.21784515619187728
+    Attrib Hostile - friendly    -0.026355237033793753
+    Attrib TAudio1=C    -0.00852191911021537
+    Attrib TAudio1=A    -0.21930196204597116
+    Attrib TAudio1=B    0.26427179102867676
+    Attrib TAudio1=D    -0.004326250731191204
+    Attrib TAudio2=0    0.06430703193185465
+    Attrib TAudio3=0    0.08634035835641021
+    Attrib TAudio3=1    -0.05475022778766685
+    Attrib TAudio3=2    -0.07471169283156494
+    Attrib QAudio1=1    -0.06961707301168019
+    Attrib QAudio1=2    0.20837829491451942
+    Attrib QAudio1=0    -0.11169918263829481
+    Attrib QAudio2=0    -0.12038682530834102
+    Attrib QAudio2=1    -0.017138688573505933
+    Attrib QAudio2=2    0.12583743526552627
+    Attrib QAudio3=0    -0.20654438522326637
+    Attrib QAudio3=1    0.2690366768513934
+    Attrib QAudio3=2    -0.04980763528495603
+    Attrib Proxemics=0    0.032005252938882595
+    Attrib Proxemics=1    0.041036574662594416
+    Attrib Proxemics=2    -0.07719968291158162
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    0.013761574846051287
+    Attrib sex    0.5205693188736492
+    Attrib age    -0.043963850404752966
+    Attrib country=germany    -0.11352678918770523
+    Attrib country=uruguay    0.010384788293705222
+    Attrib country=spain    0.22756444892878602
+    Attrib country=england    -0.06400369253081256
+    Attrib country=russia    0.23898839050267234
+    Attrib country=polish    0.019548778201129692
+    Attrib country=canada    -0.13091021920065288
+    Attrib country=chile    0.030280134907965016
+    Attrib country=scotland    -0.08570666206192713
+    Attrib country=italy    0.1563361436459033
+    Attrib country=argentina    0.04429370479418116
+    Attrib country=colombia    -0.023761756975314262
+    Attrib country=cuba    -0.01510768199099383
+    Attrib country=mexico    0.09732998064045897
+    Attrib country=hungary    -0.09937493953916601
+    Attrib country=brasil    0.027898339006376848
+    Attrib returning=1    -0.08853514917485146
+    Attrib GImg1=0    -0.3334934756257505
+    Attrib GImg1=2    -0.16788690656275568
+    Attrib GImg1=1    0.5298045408922901
+    Attrib GImg2=0    0.1572006956640014
+    Attrib GImg2=1    0.02565483247083784
+    Attrib GImg2=2    -0.17469727379451025
+    Attrib GImg3=0    0.5312779606376483
+    Attrib GImg3=1    -0.09383085839726281
+    Attrib GImg3=2    -0.10387691288398401
+    Attrib GImg3=    -0.24748691613160087
+    Attrib PImg1=1    0.1479922092361341
+    Attrib PImg2    -0.04510546379179018
+    Attrib PImg3=0    0.24662814675490474
+    Attrib PImg3=1    -0.2165498376880679
+    Attrib PImg3=2    0.028593364058991894
+    Attrib PImg4=0    0.4813166988611022
+    Attrib PImg4=1    -0.3877402380801904
+    Attrib PImg4=2    -0.012206538629719713
+    Attrib PImg5=1    -0.04582478661981812
+    Attrib Tense - relaxed    0.07289202411112689
+    Attrib Authoritative -anarchic    0.22293021768855883
+    Attrib Hostile - friendly    -0.5379393026209396
+    Attrib TAudio1=C    0.13245988406909584
+    Attrib TAudio1=A    -0.1471404592331115
+    Attrib TAudio1=B    -0.08067030809500719
+    Attrib TAudio1=D    0.1584559240259961
+    Attrib TAudio2=0    -0.6331409419639564
+    Attrib TAudio3=0    8.605946898312835E-4
+    Attrib TAudio3=1    -0.09232397652117512
+    Attrib TAudio3=2    0.20597708474508994
+    Attrib QAudio1=1    0.04331977145486366
+    Attrib QAudio1=2    0.14260230531357426
+    Attrib QAudio1=0    -0.09513263337620304
+    Attrib QAudio2=0    -0.11652876600584351
+    Attrib QAudio2=1    0.0771258054555379
+    Attrib QAudio2=2    0.061466529747027446
+    Attrib QAudio3=0    0.047641255377359706
+    Attrib QAudio3=1    0.010045716905616245
+    Attrib QAudio3=2    -0.044993587403123564
+    Attrib Proxemics=0    0.03888606083401263
+    Attrib Proxemics=1    0.018929902842836566
+    Attrib Proxemics=2    -0.020799070973382988
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    -0.013516116066105957
+    Attrib sex    -0.381610204061889
+    Attrib age    0.24300237232320068
+    Attrib country=germany    0.051801371192343584
+    Attrib country=uruguay    0.19832618638331911
+    Attrib country=spain    -0.07383310537425498
+    Attrib country=england    0.3990397339794947
+    Attrib country=russia    -0.5532477280523678
+    Attrib country=polish    0.10050084025521855
+    Attrib country=canada    -0.10093046624783523
+    Attrib country=chile    0.043288515511027484
+    Attrib country=scotland    0.04788853215532824
+    Attrib country=italy    -0.06226526728320215
+    Attrib country=argentina    -0.07444904977698023
+    Attrib country=colombia    0.09526604275810746
+    Attrib country=cuba    0.092977736578279
+    Attrib country=mexico    0.012849593663930134
+    Attrib country=hungary    0.2212385413357486
+    Attrib country=brasil    0.021145415906890612
+    Attrib returning=1    0.10264860296999997
+    Attrib GImg1=0    -0.32160503275354857
+    Attrib GImg1=2    0.2835524334937468
+    Attrib GImg1=1    0.04230529140566126
+    Attrib GImg2=0    -0.24930333429564297
+    Attrib GImg2=1    0.2868548453441341
+    Attrib GImg2=2    -0.03285537333025286
+    Attrib GImg3=0    -0.21049300492066275
+    Attrib GImg3=1    0.3250529197635302
+    Attrib GImg3=2    0.024087606098312828
+    Attrib GImg3=    0.008848872030118695
+    Attrib PImg1=1    -0.1329514645576126
+    Attrib PImg2    -0.048355637426241105
+    Attrib PImg3=0    -0.5318315406228292
+    Attrib PImg3=1    0.43418730070999406
+    Attrib PImg3=2    0.19246702690153292
+    Attrib PImg4=0    -0.4538332143505139
+    Attrib PImg4=1    0.24071630765570723
+    Attrib PImg4=2    0.2626017617313797
+    Attrib PImg5=1    0.08467970452109852
+    Attrib Tense - relaxed    -0.33371339107450215
+    Attrib Authoritative -anarchic    -0.1257957690028443
+    Attrib Hostile - friendly    0.25868419932302184
+    Attrib TAudio1=C    -0.03999008813868983
+    Attrib TAudio1=A    0.08916115022804015
+    Attrib TAudio1=B    0.0947427457531952
+    Attrib TAudio1=D    -0.022728174969504057
+    Attrib TAudio2=0    0.618797367379404
+    Attrib TAudio3=0    -0.1323739089762558
+    Attrib TAudio3=1    0.1482796400433314
+    Attrib TAudio3=2    -0.040138668976187404
+    Attrib QAudio1=1    -0.046787195408421335
+    Attrib QAudio1=2    0.2075494581667268
+    Attrib QAudio1=0    -0.08127117908249244
+    Attrib QAudio2=0    0.34226866629589947
+    Attrib QAudio2=1    -0.3365150131878879
+    Attrib QAudio2=2    0.08731267898463499
+    Attrib QAudio3=0    -0.2535736061643539
+    Attrib QAudio3=1    0.2616895950734912
+    Attrib QAudio3=2    0.046048500849731
+    Attrib Proxemics=0    0.12785041644382356
+    Attrib Proxemics=1    0.05736429825686649
+    Attrib Proxemics=2    -0.07354698778460102
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    -0.04609502553268211
+    Attrib sex    -0.1954877044301678
+    Attrib age    0.13430403226163823
+    Attrib country=germany    0.06229731715464031
+    Attrib country=uruguay    0.27579587787002724
+    Attrib country=spain    0.03451521376340589
+    Attrib country=england    0.3699708759042299
+    Attrib country=russia    -0.3344415104318165
+    Attrib country=polish    0.06218791958433622
+    Attrib country=canada    -0.18575488426792766
+    Attrib country=chile    0.03710015020602924
+    Attrib country=scotland    -0.1304801389007353
+    Attrib country=italy    0.12957643816139566
+    Attrib country=argentina    -0.07539961488213802
+    Attrib country=colombia    0.08069088329984608
+    Attrib country=cuba    0.10212362477357159
+    Attrib country=mexico    0.0763591990948198
+    Attrib country=hungary    0.1624326395602412
+    Attrib country=brasil    0.48845327306010694
+    Attrib returning=1    -0.044510059983972255
+    Attrib GImg1=0    -0.2802298607451066
+    Attrib GImg1=2    0.12850491102190909
+    Attrib GImg1=1    0.31195966529235014
+    Attrib GImg2=0    0.03589268827475376
+    Attrib GImg2=1    0.4046125832626726
+    Attrib GImg2=2    -0.3609239448824437
+    Attrib GImg3=0    0.09026764035266421
+    Attrib GImg3=1    0.7602106402866743
+    Attrib GImg3=2    -0.7042979047631825
+    Attrib GImg3=    0.03349635902252652
+    Attrib PImg1=1    -0.23406181541583057
+    Attrib PImg2    -0.009615938263523936
+    Attrib PImg3=0    -0.4719848378828193
+    Attrib PImg3=1    0.7024954300888714
+    Attrib PImg3=2    -0.08686046601227797
+    Attrib PImg4=0    -0.3355159089729943
+    Attrib PImg4=1    0.3551682571040771
+    Attrib PImg4=2    0.04551777986626412
+    Attrib PImg5=1    0.10056355255551595
+    Attrib Tense - relaxed    -0.1978044004254404
+    Attrib Authoritative -anarchic    0.18889525530803783
+    Attrib Hostile - friendly    0.01237974941389897
+    Attrib TAudio1=C    0.18836472871988438
+    Attrib TAudio1=A    -0.15597848017062338
+    Attrib TAudio1=B    0.042448204993304615
+    Attrib TAudio1=D    0.04354416029465024
+    Attrib TAudio2=0    0.3879396637816569
+    Attrib TAudio3=0    0.050029439847835415
+    Attrib TAudio3=1    0.01901067255262392
+    Attrib TAudio3=2    0.01342240866736683
+    Attrib QAudio1=1    -0.02358342426614598
+    Attrib QAudio1=2    0.18738696644464142
+    Attrib QAudio1=0    -0.18918590487826453
+    Attrib QAudio2=0    0.019267020790221717
+    Attrib QAudio2=1    -0.3318925867113638
+    Attrib QAudio2=2    0.44866906776846854
+    Attrib QAudio3=0    -0.42843734314875737
+    Attrib QAudio3=1    0.5405596187255467
+    Attrib QAudio3=2    0.008579492797312698
+    Attrib Proxemics=0    -0.1556935891145439
+    Attrib Proxemics=1    0.13888392975471042
+    Attrib Proxemics=2    0.03140596141056396
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    -0.05776252249822345
+    Attrib sex    -0.2125281411756179
+    Attrib age    0.057963321104725955
+    Attrib country=germany    0.09597538804881893
+    Attrib country=uruguay    0.10253458947734993
+    Attrib country=spain    0.10099639861061288
+    Attrib country=england    -0.08459276918136265
+    Attrib country=russia    0.04434260397366034
+    Attrib country=polish    0.1660781731652837
+    Attrib country=canada    0.15722669676463746
+    Attrib country=chile    0.15637467947096956
+    Attrib country=scotland    0.5435599677209894
+    Attrib country=italy    -0.19897340708762803
+    Attrib country=argentina    0.01305091843911422
+    Attrib country=colombia    0.1273946389031261
+    Attrib country=cuba    0.020111690016327594
+    Attrib country=mexico    0.07315391506285002
+    Attrib country=hungary    0.03102291519047865
+    Attrib country=brasil    -0.10563490439921917
+    Attrib returning=1    -0.3611365260546889
+    Attrib GImg1=0    0.07360002570634537
+    Attrib GImg1=2    0.6263899962313857
+    Attrib GImg1=1    -0.5583866615051188
+    Attrib GImg2=0    0.05385833037835891
+    Attrib GImg2=1    -0.13195554488233924
+    Attrib GImg2=2    0.14880448019825912
+    Attrib GImg3=0    0.05015229801816535
+    Attrib GImg3=1    -0.5806210134048791
+    Attrib GImg3=2    0.6438425625320183
+    Attrib GImg3=    0.06288056341361759
+    Attrib PImg1=1    0.1905052271135564
+    Attrib PImg2    -0.033237745180602477
+    Attrib PImg3=0    0.02334182149690234
+    Attrib PImg3=1    -0.3502626565724454
+    Attrib PImg3=2    0.38957062243828294
+    Attrib PImg4=0    0.11583452660288689
+    Attrib PImg4=1    -0.5438078282773945
+    Attrib PImg4=2    0.557358118616287
+    Attrib PImg5=1    0.32280189267006
+    Attrib Tense - relaxed    0.21847788190123793
+    Attrib Authoritative -anarchic    -0.3496724504028104
+    Attrib Hostile - friendly    0.1323609100959147
+    Attrib TAudio1=C    -0.16678966828379804
+    Attrib TAudio1=A    0.5401060158553863
+    Attrib TAudio1=B    -0.32470896993286424
+    Attrib TAudio1=D    0.06376079130815465
+    Attrib TAudio2=0    0.5031027149972542
+    Attrib TAudio3=0    -0.5055584270556739
+    Attrib TAudio3=1    0.3386224924708662
+    Attrib TAudio3=2    0.23117055081567248
+    Attrib QAudio1=1    0.1042047705209096
+    Attrib QAudio1=2    -0.1310621697798752
+    Attrib QAudio1=0    0.1779326335999396
+    Attrib QAudio2=0    0.7078839169525729
+    Attrib QAudio2=1    -0.5231101207576387
+    Attrib QAudio2=2    -0.18256175047441237
+    Attrib QAudio3=0    0.13670308404639775
+    Attrib QAudio3=1    -0.2850364454990653
+    Attrib QAudio3=2    0.19201930501562456
+    Attrib Proxemics=0    0.2800194485784046
+    Attrib Proxemics=1    -0.21952879194425068
+    Attrib Proxemics=2    -0.015994240772262254
+Sigmoid Node 28
+    Inputs    Weights
+    Threshold    0.06905632937844122
+    Attrib sex    -0.006120409276469409
+    Attrib age    0.07091400560469466
+    Attrib country=germany    -0.09902278978217668
+    Attrib country=uruguay    -0.10586653654803757
+    Attrib country=spain    -0.013144145158565105
+    Attrib country=england    0.44105278400625014
+    Attrib country=russia    0.048367537213849156
+    Attrib country=polish    -0.12056226829623326
+    Attrib country=canada    -0.7253495181936772
+    Attrib country=chile    -0.14051370293319643
+    Attrib country=scotland    -0.45530127215340266
+    Attrib country=italy    0.329920218355822
+    Attrib country=argentina    -0.16090577808590356
+    Attrib country=colombia    -0.12731259813398463
+    Attrib country=cuba    -0.07206861744461118
+    Attrib country=mexico    -0.07364015099043773
+    Attrib country=hungary    -0.11537137912936735
+    Attrib country=brasil    0.22180559836518324
+    Attrib returning=1    -0.14189831503319317
+    Attrib GImg1=0    0.06111831535985056
+    Attrib GImg1=2    -0.6075127082037884
+    Attrib GImg1=1    0.5116889835081712
+    Attrib GImg2=0    0.19166582036179025
+    Attrib GImg2=1    0.33378915390209973
+    Attrib GImg2=2    -0.6282328165411663
+    Attrib GImg3=0    0.1581728110799024
+    Attrib GImg3=1    0.8818404590024593
+    Attrib GImg3=2    -1.126942235871221
+    Attrib GImg3=    -0.05953787821630432
+    Attrib PImg1=1    -0.10440506813151566
+    Attrib PImg2    -0.025519324475425743
+    Attrib PImg3=0    0.2345923715013696
+    Attrib PImg3=1    -0.0737734271148206
+    Attrib PImg3=2    -0.2047243923348311
+    Attrib PImg4=0    0.24581228145049086
+    Attrib PImg4=1    0.21474394480547462
+    Attrib PImg4=2    -0.5273359956637123
+    Attrib PImg5=1    -0.19755244691704166
+    Attrib Tense - relaxed    -0.027942348636996524
+    Attrib Authoritative -anarchic    -0.1209131403230352
+    Attrib Hostile - friendly    0.06148254574460085
+    Attrib TAudio1=C    0.23962085970856137
+    Attrib TAudio1=A    -0.09041644792535099
+    Attrib TAudio1=B    -0.26696766636683217
+    Attrib TAudio1=D    -0.07689041286035445
+    Attrib TAudio2=0    0.3026895353322081
+    Attrib TAudio3=0    0.25397706020049743
+    Attrib TAudio3=1    -0.12449092664577294
+    Attrib TAudio3=2    -0.18996929085738745
+    Attrib QAudio1=1    -0.10259569821737613
+    Attrib QAudio1=2    0.010072144882600963
+    Attrib QAudio1=0    -0.014537119580680505
+    Attrib QAudio2=0    0.0856213043818953
+    Attrib QAudio2=1    -0.4706767963829495
+    Attrib QAudio2=2    0.25507245567228987
+    Attrib QAudio3=0    -0.3487259630828454
+    Attrib QAudio3=1    0.4553556880953485
+    Attrib QAudio3=2    -0.20830717436006174
+    Attrib Proxemics=0    -0.3785909370325812
+    Attrib Proxemics=1    0.3049939277472859
+    Attrib Proxemics=2    -0.029406103177094557
+Sigmoid Node 29
+    Inputs    Weights
+    Threshold    0.07377669720387023
+    Attrib sex    0.24353965095369554
+    Attrib age    -0.1636462103499334
+    Attrib country=germany    -0.29352406085391575
+    Attrib country=uruguay    0.08665569976591006
+    Attrib country=spain    0.009014108468775782
+    Attrib country=england    -0.521988584151073
+    Attrib country=russia    -0.1766823662325606
+    Attrib country=polish    -0.04042883153745304
+    Attrib country=canada    0.35446864233014236
+    Attrib country=chile    -0.036479615597317425
+    Attrib country=scotland    0.027249017222965716
+    Attrib country=italy    -0.28815017794384296
+    Attrib country=argentina    -0.06833083330187101
+    Attrib country=colombia    -0.07184124091837023
+    Attrib country=cuba    -0.25127883443233934
+    Attrib country=mexico    -0.10117506449103021
+    Attrib country=hungary    -0.10085129321896656
+    Attrib country=brasil    0.15118686627552627
+    Attrib returning=1    -0.4889619299007888
+    Attrib GImg1=0    -0.3423323700575738
+    Attrib GImg1=2    0.1220290117523181
+    Attrib GImg1=1    0.11999467991967823
+    Attrib GImg2=0    0.09259872290300725
+    Attrib GImg2=1    -0.0792579668290059
+    Attrib GImg2=2    -0.10294115048418291
+    Attrib GImg3=0    0.33686901465338837
+    Attrib GImg3=1    -0.5659435133232348
+    Attrib GImg3=2    0.3878151132539347
+    Attrib GImg3=    -0.27851334876546424
+    Attrib PImg1=1    0.04373539325584586
+    Attrib PImg2    -0.004000167032676562
+    Attrib PImg3=0    -0.0964514339581501
+    Attrib PImg3=1    0.47829687290056205
+    Attrib PImg3=2    -0.37307175635116957
+    Attrib PImg4=0    0.06117276065474432
+    Attrib PImg4=1    -0.47926525381373275
+    Attrib PImg4=2    0.4316137982676093
+    Attrib PImg5=1    0.1634107912519173
+    Attrib Tense - relaxed    0.3169423394600371
+    Attrib Authoritative -anarchic    0.5174094592175501
+    Attrib Hostile - friendly    -0.4139155014223529
+    Attrib TAudio1=C    0.08026063748897262
+    Attrib TAudio1=A    0.04330915178627547
+    Attrib TAudio1=B    -0.300979840839596
+    Attrib TAudio1=D    0.09839579386595874
+    Attrib TAudio2=0    -0.0014114131973527546
+    Attrib TAudio3=0    -0.2298781122683185
+    Attrib TAudio3=1    -0.03853701767180231
+    Attrib TAudio3=2    0.1311288070594941
+    Attrib QAudio1=1    0.17037081868177287
+    Attrib QAudio1=2    -0.07652594947668626
+    Attrib QAudio1=0    -0.20351210438493192
+    Attrib QAudio2=0    -0.2930942996820567
+    Attrib QAudio2=1    0.005597084404418038
+    Attrib QAudio2=2    0.22691245748966296
+    Attrib QAudio3=0    0.18768795726201812
+    Attrib QAudio3=1    -0.20692165896892042
+    Attrib QAudio3=2    -0.08397262093806386
+    Attrib Proxemics=0    0.2019495415184443
+    Attrib Proxemics=1    -0.1679615283294918
+    Attrib Proxemics=2    -0.14093623167108493
+Sigmoid Node 30
+    Inputs    Weights
+    Threshold    0.04159461348958387
+    Attrib sex    0.3037323108833055
+    Attrib age    -0.007058210132944978
+    Attrib country=germany    -0.1224380817811587
+    Attrib country=uruguay    -0.1354282152775314
+    Attrib country=spain    0.1546697662063062
+    Attrib country=england    -0.37012092242767797
+    Attrib country=russia    0.3756697680637724
+    Attrib country=polish    -0.015928062167913166
+    Attrib country=canada    0.023436534159643148
+    Attrib country=chile    -0.01463299965632985
+    Attrib country=scotland    0.12650909457673107
+    Attrib country=italy    8.1749047507664E-4
+    Attrib country=argentina    -0.008097913484608036
+    Attrib country=colombia    -0.0317566975804006
+    Attrib country=cuba    -0.08467486549607789
+    Attrib country=mexico    -0.0213715965185586
+    Attrib country=hungary    -0.10384379304034891
+    Attrib country=brasil    -0.1884068021834157
+    Attrib returning=1    -0.4438951429067102
+    Attrib GImg1=0    0.1804326853938969
+    Attrib GImg1=2    -0.1441074229106778
+    Attrib GImg1=1    -0.05590494149389614
+    Attrib GImg2=0    0.1768837407706519
+    Attrib GImg2=1    -0.08950845545833785
+    Attrib GImg2=2    -0.06233747234137624
+    Attrib GImg3=0    0.2705700991328362
+    Attrib GImg3=1    -0.40801034112465556
+    Attrib GImg3=2    0.15636430715406807
+    Attrib GImg3=    -0.07343911113369037
+    Attrib PImg1=1    0.3724819132802853
+    Attrib PImg2    0.04151734892115297
+    Attrib PImg3=0    0.6679476402719771
+    Attrib PImg3=1    -0.7186984224030005
+    Attrib PImg3=2    0.0977903365093857
+    Attrib PImg4=0    0.5055881338469956
+    Attrib PImg4=1    -0.6032154069663395
+    Attrib PImg4=2    0.06591774774773378
+    Attrib PImg5=1    0.057586881196161094
+    Attrib Tense - relaxed    0.3175320291633343
+    Attrib Authoritative -anarchic    -0.1812609455558574
+    Attrib Hostile - friendly    -0.26639935664726516
+    Attrib TAudio1=C    0.006369251443401463
+    Attrib TAudio1=A    0.32560993749958705
+    Attrib TAudio1=B    -0.4560761370272993
+    Attrib TAudio1=D    0.08940636914402679
+    Attrib TAudio2=0    -0.06430672353697423
+    Attrib TAudio3=0    -0.15244040230830413
+    Attrib TAudio3=1    0.021210312805809966
+    Attrib TAudio3=2    0.15783526345911647
+    Attrib QAudio1=1    0.18845866206002515
+    Attrib QAudio1=2    -0.21807898002150378
+    Attrib QAudio1=0    0.08469944176609423
+    Attrib QAudio2=0    0.40377800581841317
+    Attrib QAudio2=1    -0.2309507790100596
+    Attrib QAudio2=2    -0.15262536967607437
+    Attrib QAudio3=0    0.3253462421180153
+    Attrib QAudio3=1    -0.37961370495554675
+    Attrib QAudio3=2    0.023488061583577576
+    Attrib Proxemics=0    -0.08816154648753145
+    Attrib Proxemics=1    -0.020289608519404475
+    Attrib Proxemics=2    0.021955651234529656
+Sigmoid Node 31
+    Inputs    Weights
+    Threshold    0.006527068993148523
+    Attrib sex    -0.2926956158583623
+    Attrib age    0.10852051833405164
+    Attrib country=germany    -0.03948497354741124
+    Attrib country=uruguay    0.026802054323348586
+    Attrib country=spain    -0.07049383856873852
+    Attrib country=england    -0.03519551765515364
+    Attrib country=russia    -0.10891489168572535
+    Attrib country=polish    0.030426276899162073
+    Attrib country=canada    0.30498114035652424
+    Attrib country=chile    0.06260817827567744
+    Attrib country=scotland    0.270577451220122
+    Attrib country=italy    -0.21177479734605736
+    Attrib country=argentina    -0.11354940145251552
+    Attrib country=colombia    0.05823073822419157
+    Attrib country=cuba    -0.07159442095415029
+    Attrib country=mexico    -0.029538694407233636
+    Attrib country=hungary    0.08540630645945434
+    Attrib country=brasil    -0.14257170102686548
+    Attrib returning=1    -0.3816037115153173
+    Attrib GImg1=0    0.28924535298082993
+    Attrib GImg1=2    0.1424495099291974
+    Attrib GImg1=1    -0.4638077333528858
+    Attrib GImg2=0    -0.06068181716720377
+    Attrib GImg2=1    0.018252807425342472
+    Attrib GImg2=2    0.03448340722248652
+    Attrib GImg3=0    -0.251026449818067
+    Attrib GImg3=1    -0.19292036185989597
+    Attrib GImg3=2    0.32098556434418885
+    Attrib GImg3=    0.13533749154376684
+    Attrib PImg1=1    0.11792049621705512
+    Attrib PImg2    -0.008175438823420679
+    Attrib PImg3=0    -0.06028385371650705
+    Attrib PImg3=1    -0.08139002760557412
+    Attrib PImg3=2    0.1298547063821189
+    Attrib PImg4=0    -0.14436658453764323
+    Attrib PImg4=1    -0.1894545204666887
+    Attrib PImg4=2    0.3759572527177858
+    Attrib PImg5=1    0.11579471045784175
+    Attrib Tense - relaxed    0.15059574212515942
+    Attrib Authoritative -anarchic    -0.24565535166739608
+    Attrib Hostile - friendly    0.39920089146213494
+    Attrib TAudio1=C    -0.14737894992079342
+    Attrib TAudio1=A    0.5912293643162067
+    Attrib TAudio1=B    -0.3264463596478419
+    Attrib TAudio1=D    -0.11717575730465588
+    Attrib TAudio2=0    0.7850892972252665
+    Attrib TAudio3=0    -0.20186570762279837
+    Attrib TAudio3=1    0.16384763474734534
+    Attrib TAudio3=2    0.014354207252682967
+    Attrib QAudio1=1    0.04942531086472138
+    Attrib QAudio1=2    -0.27098814591977516
+    Attrib QAudio1=0    0.13537058962550516
+    Attrib QAudio2=0    0.43447803288955916
+    Attrib QAudio2=1    -0.26012806837703656
+    Attrib QAudio2=2    -0.16269816433390896
+    Attrib QAudio3=0    0.1420152750318237
+    Attrib QAudio3=1    -0.19394022190615415
+    Attrib QAudio3=2    0.087627066117168
+    Attrib Proxemics=0    -0.0636827441589384
+    Attrib Proxemics=1    -0.0190583360445112
+    Attrib Proxemics=2    0.003907344820202563
+Sigmoid Node 32
+    Inputs    Weights
+    Threshold    0.0865670558647178
+    Attrib sex    -0.11479294655864272
+    Attrib age    -0.32830391335790005
+    Attrib country=germany    -0.12377061688713799
+    Attrib country=uruguay    0.009164134446710156
+    Attrib country=spain    -0.11830434530463141
+    Attrib country=england    -0.5859407214597903
+    Attrib country=russia    0.06288049458205026
+    Attrib country=polish    -0.04190721268861552
+    Attrib country=canada    0.6588380063638622
+    Attrib country=chile    -0.12790427700645668
+    Attrib country=scotland    -0.21961736336316384
+    Attrib country=italy    -0.2572133655574413
+    Attrib country=argentina    0.0510170300173015
+    Attrib country=colombia    -0.05013902393344113
+    Attrib country=cuba    -0.17874388701032987
+    Attrib country=mexico    -0.030743422173977915
+    Attrib country=hungary    0.028096574986507805
+    Attrib country=brasil    0.33380982290104555
+    Attrib returning=1    -0.1046146400081515
+    Attrib GImg1=0    0.5104507056901417
+    Attrib GImg1=2    -0.40516717249068807
+    Attrib GImg1=1    -0.1997929517603107
+    Attrib GImg2=0    0.0712131813053247
+    Attrib GImg2=1    -0.17845791781697976
+    Attrib GImg2=2    0.03931768521462275
+    Attrib GImg3=0    -0.3718968853642965
+    Attrib GImg3=1    0.0051169490906368105
+    Attrib GImg3=2    -0.12467868928045148
+    Attrib GImg3=    0.38209244612325505
+    Attrib PImg1=1    -0.12878590648654362
+    Attrib PImg2    -0.044625128155229725
+    Attrib PImg3=0    -0.17413749079980367
+    Attrib PImg3=1    0.8861388548845475
+    Attrib PImg3=2    -0.7208614841773903
+    Attrib PImg4=0    -0.36185382001741084
+    Attrib PImg4=1    0.2922144573533561
+    Attrib PImg4=2    0.1296419808114423
+    Attrib PImg5=1    -0.002739015272799679
+    Attrib Tense - relaxed    0.3129991221365597
+    Attrib Authoritative -anarchic    0.7610810238096868
+    Attrib Hostile - friendly    0.48865387609124306
+    Attrib TAudio1=C    0.18952040813561719
+    Attrib TAudio1=A    -0.32452072931375175
+    Attrib TAudio1=B    0.13645971954851552
+    Attrib TAudio1=D    -0.0934983987916362
+    Attrib TAudio2=0    0.12112544270964257
+    Attrib TAudio3=0    0.4932509101746662
+    Attrib TAudio3=1    -0.29308156482478104
+    Attrib TAudio3=2    -0.16968562730838993
+    Attrib QAudio1=1    0.07261735766941854
+    Attrib QAudio1=2    -0.2716359685781735
+    Attrib QAudio1=0    0.12709308081668497
+    Attrib QAudio2=0    -1.0941674324945745
+    Attrib QAudio2=1    0.7206624577541089
+    Attrib QAudio2=2    0.34313729495279344
+    Attrib QAudio3=0    0.07998455538856364
+    Attrib QAudio3=1    0.004986075756157464
+    Attrib QAudio3=2    -0.144422984840679
+    Attrib Proxemics=0    -0.16121303165961406
+    Attrib Proxemics=1    -0.10410272282861523
+    Attrib Proxemics=2    0.2127911663127736
+Sigmoid Node 33
+    Inputs    Weights
+    Threshold    -0.02886604316946964
+    Attrib sex    0.04806682892581869
+    Attrib age    0.2188307784616682
+    Attrib country=germany    0.19995473074461478
+    Attrib country=uruguay    -0.0851250257993498
+    Attrib country=spain    0.0915658648373114
+    Attrib country=england    0.5415246650734727
+    Attrib country=russia    -0.011212429277313474
+    Attrib country=polish    0.14247428269890186
+    Attrib country=canada    -0.44903861437206194
+    Attrib country=chile    0.12061603347455035
+    Attrib country=scotland    0.009129346008292585
+    Attrib country=italy    0.24381716600506778
+    Attrib country=argentina    0.06919403686118736
+    Attrib country=colombia    0.0834078643676891
+    Attrib country=cuba    0.2963133271659382
+    Attrib country=mexico    0.11669778086286361
+    Attrib country=hungary    0.026186296769482968
+    Attrib country=brasil    -0.28413037540842323
+    Attrib returning=1    0.44176845625378147
+    Attrib GImg1=0    -0.18434672603715366
+    Attrib GImg1=2    0.23532981257699312
+    Attrib GImg1=1    0.07453784380919037
+    Attrib GImg2=0    -0.19479452359040267
+    Attrib GImg2=1    0.12615146053355153
+    Attrib GImg2=2    0.13247783543556058
+    Attrib GImg3=0    -0.13971754366756783
+    Attrib GImg3=1    0.14472164270608523
+    Attrib GImg3=2    0.049166052271893815
+    Attrib GImg3=    0.025428411784669386
+    Attrib PImg1=1    0.03865844713449154
+    Attrib PImg2    0.034193434959052235
+    Attrib PImg3=0    0.08727838169908675
+    Attrib PImg3=1    -0.5378485308445086
+    Attrib PImg3=2    0.6065330328394566
+    Attrib PImg4=0    0.0076559925344666735
+    Attrib PImg4=1    0.1967556519738212
+    Attrib PImg4=2    -0.229518238775041
+    Attrib PImg5=1    -0.1732944599351479
+    Attrib Tense - relaxed    -0.3755046738406332
+    Attrib Authoritative -anarchic    -0.5688301010440416
+    Attrib Hostile - friendly    0.07033550634626684
+    Attrib TAudio1=C    -0.2557883312255489
+    Attrib TAudio1=A    0.136504577145913
+    Attrib TAudio1=B    0.22237765227750086
+    Attrib TAudio1=D    -0.010357092312074987
+    Attrib TAudio2=0    -0.054956505277895924
+    Attrib TAudio3=0    -0.13789683952117507
+    Attrib TAudio3=1    0.22226127118387817
+    Attrib TAudio3=2    0.06796934381438921
+    Attrib QAudio1=1    -0.1494710983726911
+    Attrib QAudio1=2    0.22470647959245765
+    Attrib QAudio1=0    -0.0595939726865874
+    Attrib QAudio2=0    0.7050174089985336
+    Attrib QAudio2=1    -0.35949160851661527
+    Attrib QAudio2=2    -0.2877838733132094
+    Attrib QAudio3=0    -0.1645449821542551
+    Attrib QAudio3=1    0.14371096148518503
+    Attrib QAudio3=2    0.03197768202743509
+    Attrib Proxemics=0    -0.04513132008813589
+    Attrib Proxemics=1    0.13963044802272914
+    Attrib Proxemics=2    -0.029125364020856987
+Sigmoid Node 34
+    Inputs    Weights
+    Threshold    -0.10403202115084911
+    Attrib sex    -0.2708434463657138
+    Attrib age    0.19265066161397978
+    Attrib country=germany    0.14719991042330965
+    Attrib country=uruguay    0.16489048649915833
+    Attrib country=spain    -0.0019209910350282645
+    Attrib country=england    -0.00871292520294507
+    Attrib country=russia    -0.024727011298379384
+    Attrib country=polish    0.1515294061974684
+    Attrib country=canada    0.21056926265170356
+    Attrib country=chile    0.15015558344033425
+    Attrib country=scotland    0.4510657472402245
+    Attrib country=italy    -0.18348627529366454
+    Attrib country=argentina    -0.06245650541415384
+    Attrib country=colombia    0.17558046777445246
+    Attrib country=cuba    0.12190916500751596
+    Attrib country=mexico    0.03497036882602764
+    Attrib country=hungary    0.029492622363733043
+    Attrib country=brasil    -0.10740654936497702
+    Attrib returning=1    -0.2559265031139727
+    Attrib GImg1=0    0.02860906897519015
+    Attrib GImg1=2    0.6260199146895227
+    Attrib GImg1=1    -0.5764129999744833
+    Attrib GImg2=0    -0.036915933195522534
+    Attrib GImg2=1    -0.12798007561044622
+    Attrib GImg2=2    0.1525045240979817
+    Attrib GImg3=0    -0.07770163437615182
+    Attrib GImg3=1    -0.4209154788124896
+    Attrib GImg3=2    0.5555935793954953
+    Attrib GImg3=    0.13110192235597473
+    Attrib PImg1=1    0.12519745985068237
+    Attrib PImg2    -0.04830087382166162
+    Attrib PImg3=0    -0.07966796238789782
+    Attrib PImg3=1    -0.18991244544465938
+    Attrib PImg3=2    0.42873102322523526
+    Attrib PImg4=0    -0.09196511348594488
+    Attrib PImg4=1    -0.3226711107315749
+    Attrib PImg4=2    0.44835678948121116
+    Attrib PImg5=1    0.2972861024641792
+    Attrib Tense - relaxed    0.04343391337317285
+    Attrib Authoritative -anarchic    -0.3698294237924096
+    Attrib Hostile - friendly    0.1501320534739291
+    Attrib TAudio1=C    -0.21171776381307889
+    Attrib TAudio1=A    0.5299533494902217
+    Attrib TAudio1=B    -0.16300077758806308
+    Attrib TAudio1=D    0.043271000913828406
+    Attrib TAudio2=0    0.5090002458333868
+    Attrib TAudio3=0    -0.40809335457004275
+    Attrib TAudio3=1    0.27996951967015804
+    Attrib TAudio3=2    0.21078985459411523
+    Attrib QAudio1=1    0.15464849848124604
+    Attrib QAudio1=2    -0.17329812015345947
+    Attrib QAudio1=0    0.16268410996912117
+    Attrib QAudio2=0    0.5982711494512379
+    Attrib QAudio2=1    -0.4192557890935286
+    Attrib QAudio2=2    -0.06026055941341007
+    Attrib QAudio3=0    0.05404028228959581
+    Attrib QAudio3=1    -0.15801745050070948
+    Attrib QAudio3=2    0.21659530945686706
+    Attrib Proxemics=0    0.14129482055157078
+    Attrib Proxemics=1    -0.14992242629293592
+    Attrib Proxemics=2    -0.025621652079486284
+Sigmoid Node 35
+    Inputs    Weights
+    Threshold    -0.02588643245695851
+    Attrib sex    -0.5635061303628462
+    Attrib age    0.09576576018171053
+    Attrib country=germany    0.20524053378972218
+    Attrib country=uruguay    -0.09697253993852942
+    Attrib country=spain    -0.18735319642067838
+    Attrib country=england    0.2977597369117938
+    Attrib country=russia    -0.31975871353495394
+    Attrib country=polish    0.006069705762599013
+    Attrib country=canada    -0.08857838318019312
+    Attrib country=chile    0.0121102685798542
+    Attrib country=scotland    0.0504609644986499
+    Attrib country=italy    -0.0689887525174411
+    Attrib country=argentina    -0.18797038391514942
+    Attrib country=colombia    0.03758929462927591
+    Attrib country=cuba    0.03167206001759269
+    Attrib country=mexico    -0.10101877783992404
+    Attrib country=hungary    0.27379796986900445
+    Attrib country=brasil    -0.20876880007738755
+    Attrib returning=1    0.09221207315863698
+    Attrib GImg1=0    0.3882868934726028
+    Attrib GImg1=2    -0.05501482308542881
+    Attrib GImg1=1    -0.2810252717603915
+    Attrib GImg2=0    -0.2271614426950767
+    Attrib GImg2=1    0.07581322580672879
+    Attrib GImg2=2    0.1237448905687063
+    Attrib GImg3=0    -0.6412832119779371
+    Attrib GImg3=1    0.2499718162840016
+    Attrib GImg3=2    0.05444092643392075
+    Attrib GImg3=    0.2865927342752155
+    Attrib PImg1=1    -0.041309132323156965
+    Attrib PImg2    0.026125812057991735
+    Attrib PImg3=0    -0.20586321179784592
+    Attrib PImg3=1    -0.08135041890508998
+    Attrib PImg3=2    0.23185504799508375
+    Attrib PImg4=0    -0.39901589217624095
+    Attrib PImg4=1    0.2570940831188098
+    Attrib PImg4=2    0.19234232523031417
+    Attrib PImg5=1    -0.07241327325121999
+    Attrib Tense - relaxed    -0.2524248249943734
+    Attrib Authoritative -anarchic    -0.48428634490814537
+    Attrib Hostile - friendly    0.7747955142315197
+    Attrib TAudio1=C    -0.14656302950290623
+    Attrib TAudio1=A    0.3431646709680518
+    Attrib TAudio1=B    -0.04751695822606772
+    Attrib TAudio1=D    -0.2665823209826622
+    Attrib TAudio2=0    0.7924371399377209
+    Attrib TAudio3=0    -0.001964932922406701
+    Attrib TAudio3=1    0.24219245593326766
+    Attrib TAudio3=2    -0.22786484011723956
+    Attrib QAudio1=1    -0.10902932716488496
+    Attrib QAudio1=2    -0.10943979255954027
+    Attrib QAudio1=0    0.19312955070878124
+    Attrib QAudio2=0    0.44044081976731186
+    Attrib QAudio2=1    -0.23156104405770253
+    Attrib QAudio2=2    -0.20284365786314465
+    Attrib QAudio3=0    -0.10968210072369866
+    Attrib QAudio3=1    0.03125772896859437
+    Attrib QAudio3=2    0.022000359631952238
+    Attrib Proxemics=0    -0.11929778928096917
+    Attrib Proxemics=1    0.136214479626002
+    Attrib Proxemics=2    0.01086488169080484
+Sigmoid Node 36
+    Inputs    Weights
+    Threshold    -0.10983447483350439
+    Attrib sex    -0.15668339173198334
+    Attrib age    0.10755648519640516
+    Attrib country=germany    0.09630333888307806
+    Attrib country=uruguay    0.1387492416311531
+    Attrib country=spain    0.03780397084222256
+    Attrib country=england    0.029859046886508044
+    Attrib country=russia    -0.06299597206536016
+    Attrib country=polish    0.0840789054718029
+    Attrib country=canada    0.17854253751830423
+    Attrib country=chile    0.11253022665033441
+    Attrib country=scotland    0.27698296250000054
+    Attrib country=italy    -0.10663664615912981
+    Attrib country=argentina    0.033736448581809166
+    Attrib country=colombia    0.06199305357418846
+    Attrib country=cuba    0.03845888924057784
+    Attrib country=mexico    0.008941316712390986
+    Attrib country=hungary    0.12983895008580543
+    Attrib country=brasil    -0.07512808217811112
+    Attrib returning=1    -0.1051410603486332
+    Attrib GImg1=0    0.039111291443399136
+    Attrib GImg1=2    0.3310577644988263
+    Attrib GImg1=1    -0.3189614158092295
+    Attrib GImg2=0    -0.0953547880065071
+    Attrib GImg2=1    -0.016642534415892172
+    Attrib GImg2=2    0.16325458215196523
+    Attrib GImg3=0    -0.13159607625384168
+    Attrib GImg3=1    -0.278522957361388
+    Attrib GImg3=2    0.4246714464463345
+    Attrib GImg3=    0.04819671106536234
+    Attrib PImg1=1    0.07408581154280255
+    Attrib PImg2    0.024432369258851366
+    Attrib PImg3=0    -0.15255245699070452
+    Attrib PImg3=1    -0.06929896043174068
+    Attrib PImg3=2    0.28464314940739877
+    Attrib PImg4=0    -0.11452542458458224
+    Attrib PImg4=1    -0.16422555802557334
+    Attrib PImg4=2    0.26726382644333285
+    Attrib PImg5=1    0.2064632734430298
+    Attrib Tense - relaxed    0.03364309515850435
+    Attrib Authoritative -anarchic    -0.2571216485631508
+    Attrib Hostile - friendly    0.10348044766991034
+    Attrib TAudio1=C    -0.14315418267743088
+    Attrib TAudio1=A    0.3913946103721978
+    Attrib TAudio1=B    -0.04814702010103797
+    Attrib TAudio1=D    -0.010947000273875959
+    Attrib TAudio2=0    0.3774070705042103
+    Attrib TAudio3=0    -0.3601627321244493
+    Attrib TAudio3=1    0.20070591413602726
+    Attrib TAudio3=2    0.09297633895933881
+    Attrib QAudio1=1    0.04820889455432706
+    Attrib QAudio1=2    -0.05993799595120596
+    Attrib QAudio1=0    0.08041317216264472
+    Attrib QAudio2=0    0.46043714960074106
+    Attrib QAudio2=1    -0.2693697300200657
+    Attrib QAudio2=2    -0.03366526082804466
+    Attrib QAudio3=0    -0.006193176034925427
+    Attrib QAudio3=1    -0.04744514596718667
+    Attrib QAudio3=2    0.16240980088661675
+    Attrib Proxemics=0    0.11344025209463811
+    Attrib Proxemics=1    -0.032390754752491625
+    Attrib Proxemics=2    0.039598838383239784
+Sigmoid Node 37
+    Inputs    Weights
+    Threshold    -0.05894478810497179
+    Attrib sex    -0.10660321205871039
+    Attrib age    -0.15192014142501223
+    Attrib country=germany    0.04021470199974355
+    Attrib country=uruguay    -0.11691619904959948
+    Attrib country=spain    -0.10097957998013748
+    Attrib country=england    -0.36127796249948585
+    Attrib country=russia    0.12338053097006066
+    Attrib country=polish    -0.019095359367505255
+    Attrib country=canada    0.3350726048954978
+    Attrib country=chile    -0.014933781590836621
+    Attrib country=scotland    0.12221162707483178
+    Attrib country=italy    -0.08979864676849783
+    Attrib country=argentina    0.0737328378646456
+    Attrib country=colombia    0.04941140472472903
+    Attrib country=cuba    -0.036699903615795205
+    Attrib country=mexico    -0.05628335532752123
+    Attrib country=hungary    0.04085587778904742
+    Attrib country=brasil    -0.09246869814480806
+    Attrib returning=1    0.26869433354593514
+    Attrib GImg1=0    0.5160862034427085
+    Attrib GImg1=2    -0.14851576915973497
+    Attrib GImg1=1    -0.3638586536258819
+    Attrib GImg2=0    -0.009263363486767201
+    Attrib GImg2=1    -0.34523356450103426
+    Attrib GImg2=2    0.38320424759507804
+    Attrib GImg3=0    -0.31968851292986644
+    Attrib GImg3=1    -0.3433515149553997
+    Attrib GImg3=2    0.4233406825470113
+    Attrib GImg3=    0.318404507901944
+    Attrib PImg1=1    0.16031422432129805
+    Attrib PImg2    0.020441405992482148
+    Attrib PImg3=0    0.2809606215046896
+    Attrib PImg3=1    0.05514533945880211
+    Attrib PImg3=2    -0.2512562277707319
+    Attrib PImg4=0    -0.13494210728250142
+    Attrib PImg4=1    0.2737298789030078
+    Attrib PImg4=2    -0.20231602930111608
+    Attrib PImg5=1    -0.0744292818393042
+    Attrib Tense - relaxed    0.16632774846361978
+    Attrib Authoritative -anarchic    -0.07502193103156739
+    Attrib Hostile - friendly    0.37828126218830443
+    Attrib TAudio1=C    -0.1572805642922123
+    Attrib TAudio1=A    0.011505063846211564
+    Attrib TAudio1=B    0.14518789363276385
+    Attrib TAudio1=D    -0.056712942373025516
+    Attrib TAudio2=0    0.03528120692977572
+    Attrib TAudio3=0    0.02762113198958429
+    Attrib TAudio3=1    0.01395131216743089
+    Attrib TAudio3=2    -0.022898491861228505
+    Attrib QAudio1=1    0.07434548955546497
+    Attrib QAudio1=2    -0.3432241034890611
+    Attrib QAudio1=0    0.2780552882052618
+    Attrib QAudio2=0    -0.3763272296824447
+    Attrib QAudio2=1    0.5375951475803865
+    Attrib QAudio2=2    -0.09260023992583945
+    Attrib QAudio3=0    0.22181840280416742
+    Attrib QAudio3=1    -0.2680675775964279
+    Attrib QAudio3=2    0.04650385332792512
+    Attrib Proxemics=0    -0.05494635669792248
+    Attrib Proxemics=1    -0.06308823810557103
+    Attrib Proxemics=2    0.1201552906493117
+Sigmoid Node 38
+    Inputs    Weights
+    Threshold    -0.056143903937506096
+    Attrib sex    -0.018066996938311486
+    Attrib age    -0.03812173551166583
+    Attrib country=germany    0.03153155647863191
+    Attrib country=uruguay    0.06986387056993838
+    Attrib country=spain    -0.020425955819438724
+    Attrib country=england    -0.371128654959112
+    Attrib country=russia    -0.056599896548906674
+    Attrib country=polish    0.09597401101785866
+    Attrib country=canada    0.5607677685507746
+    Attrib country=chile    0.07994843807392199
+    Attrib country=scotland    0.32454183432225325
+    Attrib country=italy    -0.24096016376653218
+    Attrib country=argentina    0.15816102679555757
+    Attrib country=colombia    0.05775518988232706
+    Attrib country=cuba    0.026278149980696632
+    Attrib country=mexico    0.07223455939531115
+    Attrib country=hungary    0.11792449127427759
+    Attrib country=brasil    -0.12532424288314706
+    Attrib returning=1    0.18017982750495443
+    Attrib GImg1=0    -0.022936635998977457
+    Attrib GImg1=2    0.46941879612897075
+    Attrib GImg1=1    -0.4032223687658694
+    Attrib GImg2=0    -0.0745987844696549
+    Attrib GImg2=1    -0.2439102487556226
+    Attrib GImg2=2    0.5018766446807791
+    Attrib GImg3=0    -0.11151852598240934
+    Attrib GImg3=1    -0.6839640716533186
+    Attrib GImg3=2    0.8913105733740568
+    Attrib GImg3=    0.0807648322928351
+    Attrib PImg1=1    0.0355433714084428
+    Attrib PImg2    -0.023096699208971318
+    Attrib PImg3=0    -0.19598681210672386
+    Attrib PImg3=1    0.17809539602742602
+    Attrib PImg3=2    0.0018129802383915873
+    Attrib PImg4=0    -0.19644577262704924
+    Attrib PImg4=1    -0.09717221687836484
+    Attrib PImg4=2    0.34931241887909925
+    Attrib PImg5=1    0.19921070276340536
+    Attrib Tense - relaxed    -0.022498387451169444
+    Attrib Authoritative -anarchic    0.10875943372007808
+    Attrib Hostile - friendly    -0.03252764717304701
+    Attrib TAudio1=C    -0.2754507710301282
+    Attrib TAudio1=A    0.04500245174311181
+    Attrib TAudio1=B    0.23527748222362557
+    Attrib TAudio1=D    0.015894328179651588
+    Attrib TAudio2=0    -0.11608398899145506
+    Attrib TAudio3=0    -0.26848055699770024
+    Attrib TAudio3=1    0.05740908676884728
+    Attrib TAudio3=2    0.14997539633564444
+    Attrib QAudio1=1    0.135510109887194
+    Attrib QAudio1=2    -0.03706771978276931
+    Attrib QAudio1=0    0.009121217439398322
+    Attrib QAudio2=0    -0.20043015779461226
+    Attrib QAudio2=1    0.34393820930472613
+    Attrib QAudio2=2    -0.09464036830376857
+    Attrib QAudio3=0    0.27043966163693856
+    Attrib QAudio3=1    -0.3325042042199046
+    Attrib QAudio3=2    0.0855075214471076
+    Attrib Proxemics=0    0.2692574674568389
+    Attrib Proxemics=1    -0.17073660672695198
+    Attrib Proxemics=2    -0.013993356803349228
+Class 4
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+Class 5
+    Input
+    Node 2
+Class 3
+    Input
+    Node 3
+Class 2
+    Input
+    Node 4
+Class 1
+    Input
+    Node 5
+
+
+Time taken to build model: 1.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          61               83.5616 %
+Incorrectly Classified Instances        12               16.4384 %
+Kappa statistic                          0.7565
+Mean absolute error                      0.0658
+Root mean squared error                  0.2035
+Relative absolute error                 28.0187 %
+Root relative squared error             59.7397 %
+Total Number of Instances               73     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,857    0,068    0,750      0,857    0,800      0,751    0,953     0,908     4
+                 0,400    0,015    0,667      0,400    0,500      0,490    0,950     0,597     0
+                 0,500    0,014    0,667      0,500    0,571      0,557    0,975     0,692     5
+                 0,800    0,032    0,800      0,800    0,800      0,768    0,935     0,865     3
+                 0,944    0,108    0,895      0,944    0,919      0,837    0,965     0,917     2
+                 0,750    0,000    1,000      0,750    0,857      0,860    1,000     1,000     1
+Weighted Avg.    0,836    0,072    0,832      0,836    0,829      0,773    0,960     0,879     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+ 12  1  1  0  0  0 |  a = 4
+  2  2  0  0  1  0 |  b = 0
+  2  0  2  0  0  0 |  c = 5
+  0  0  0  8  2  0 |  d = 3
+  0  0  0  2 34  0 |  e = 2
+  0  0  0  0  1  3 |  f = 1
+

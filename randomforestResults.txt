@@ -1,0 +1,74 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     non_verbal_tourist_data-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-N-R3-weka.filters.unsupervised.attribute.StringToNominal-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-R1
+Instances:    73
+Attributes:   23
+              sex
+              age
+              country
+              returning
+              GImg1
+              GImg2
+              GImg3
+              PImg1
+              PImg2
+              PImg3
+              PImg4
+              PImg5
+              Tense - relaxed
+              Authoritative -anarchic
+              Hostile - friendly
+              TAudio1
+              TAudio2
+              TAudio3
+              QAudio1
+              QAudio2
+              QAudio3
+              Proxemics
+              Type of Client
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          57               78.0822 %
+Incorrectly Classified Instances        16               21.9178 %
+Kappa statistic                          0.661 
+Mean absolute error                      0.1213
+Root mean squared error                  0.229 
+Relative absolute error                 51.6513 %
+Root relative squared error             67.2336 %
+Total Number of Instances               73     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,857    0,068    0,750      0,857    0,800      0,751    0,978     0,910     4
+                 0,400    0,000    1,000      0,400    0,571      0,619    0,921     0,562     0
+                 0,500    0,014    0,667      0,500    0,571      0,557    0,957     0,508     5
+                 0,600    0,048    0,667      0,600    0,632      0,578    0,929     0,806     3
+                 0,972    0,216    0,814      0,972    0,886      0,768    0,975     0,974     2
+                 0,000    0,000    ?          0,000    ?          ?        0,964     0,625     1
+Weighted Avg.    0,781    0,127    ?          0,781    ?          ?        0,964     0,865     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+ 12  0  1  1  0  0 |  a = 4
+  1  2  0  1  1  0 |  b = 0
+  2  0  2  0  0  0 |  c = 5
+  1  0  0  6  3  0 |  d = 3
+  0  0  0  1 35  0 |  e = 2
+  0  0  0  0  4  0 |  f = 1
+
