@@ -21,7 +21,7 @@ O repositório está organizado da seguinte forma:
 ├── non-verbal-tourist-datal2.arff # A BASE DE DADOS FINAL, pré-processada e utilizada nas análises.
 ├── randomforestResults.txt        # Output completo da execução do Random Forest no Weka.
 ├── MultylayerperceptonResults.txt # Output completo da execução do Multilayer Perceptron no Weka.
-├── Trabalho_Final_Mineracao.pdf   # (Sugestão) O relatório final do trabalho.
+├── Trabalho_Final_Mineracao.pdf   # O relatório final do trabalho.
 └── README.md                      # Este arquivo.
 ```
 
@@ -29,7 +29,7 @@ O repositório está organizado da seguinte forma:
 
 O processo de análise seguiu as seguintes etapas:
 
-1.  **Conversão Inicial (Opcional):** Um script Python (`converte_csv_para_arff/app.py`) foi desenvolvido para realizar a conversão programática do formato `.csv` original para `.arff`. Este script serve como uma alternativa documentada de fluxo de trabalho.
+1.  **Conversão Inicial:** Um script Python (`converte_csv_para_arff/app.py`) foi desenvolvido para realizar a conversão programática do formato `.csv` original para `.arff`. Este script serve como uma alternativa documentada de fluxo de trabalho.
 
 2.  **Pré-processamento Manual:** O arquivo `.arff` foi refinado manualmente em um editor de texto. Esta etapa foi crucial e incluiu:
     *   Ajuste dos tipos de atributos (ex: de `STRING` para `NUMERIC` na coluna `Age`).
